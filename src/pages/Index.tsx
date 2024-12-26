@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigation } from '@/components/Navigation';
 import { LeadForm } from '@/components/LeadForm';
 import { Footer } from '@/components/Footer';
-import { TestTube, Microscope, Binary } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -10,55 +10,84 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-20">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
-            alt="Scientific Background"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 to-navy/80"></div>
-        </div>
-        
-        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full">
+      <section className="relative min-h-screen flex items-center pt-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Retirement Planning Science: Four Key Steps to Secure a Better Retirement in the UK
+            <div className="space-y-8">
+              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-navy">
+                How Much Money Do I Need to Retire?
               </h1>
-              <p className="text-xl mb-8">
-                Download our research-backed 2025 Retirement Analysis Guide.
-              </p>
-              <p className="text-lg font-playfair italic text-[#9b87f5]">
-                Empirical Methods for Wealth Preservation
-              </p>
+              
+              <div className="space-y-2">
+                <h2 className="text-2xl md:text-3xl font-playfair">
+                  Learn How Retirement Planning <span className="italic">Really</span> Works Before It's Too Late...
+                </h2>
+              </div>
+
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
+                    <Check className="w-5 h-5 text-[#ff6b6b]" />
+                  </div>
+                  <p className="text-lg text-gray-700">
+                    The conventional approach to retirement planning is fundamentally flawed. It can lead you to underspend and be miserable or overspend and run out of money.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
+                    <Check className="w-5 h-5 text-[#ff6b6b]" />
+                  </div>
+                  <p className="text-lg text-gray-700">
+                    Get a step-by-step, easy-to-understand plan to calculate your retirement needs with confidence.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
+                    <Check className="w-5 h-5 text-[#ff6b6b]" />
+                  </div>
+                  <p className="text-lg text-gray-700">
+                    You'll discover how to calculate the amount of money you really need to retire on the first try without software, online calculators, or being a math genius.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
+                    <Check className="w-5 h-5 text-[#ff6b6b]" />
+                  </div>
+                  <p className="text-lg text-gray-700">
+                    Provides the most empowering solution to figuring out your retirement so you control the outcome.
+                  </p>
+                </div>
+              </div>
+
+              <div className="pt-4">
+                <LeadForm />
+              </div>
             </div>
-            
-            <div className="flex justify-center md:justify-end">
-              <LeadForm />
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Trust Signals */}
-      <section className="py-16 bg-navy">
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="p-6">
-              <TestTube className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
-              <h3 className="font-playfair text-xl mb-2 text-white">Research-Based</h3>
-              <p className="text-gray-300">Methodically tested retirement strategies</p>
-            </div>
-            <div className="p-6">
-              <Microscope className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
-              <h3 className="font-playfair text-xl mb-2 text-white">Data Analysis</h3>
-              <p className="text-gray-300">25+ years of market research</p>
-            </div>
-            <div className="p-6">
-              <Binary className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
-              <h3 className="font-playfair text-xl mb-2 text-white">Algorithmic Precision</h3>
-              <p className="text-gray-300">Advanced planning algorithms</p>
+
+            <div className="flex flex-col items-center space-y-8">
+              <img 
+                src="/lovable-uploads/683834ae-0735-4a1e-b0b2-217d333fb74b.png" 
+                alt="How Much Money Do I Need To Retire? Book Cover" 
+                className="w-full max-w-md"
+              />
+              
+              <div className="space-y-4">
+                <p className="text-xl font-medium text-center">Available on:</p>
+                <div className="grid grid-cols-2 gap-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" className="h-8 object-contain opacity-60" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Kobo_logo.svg" alt="Kobo" className="h-8 object-contain opacity-60" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Barnes_%26_Noble_logo.svg" alt="Barnes & Noble" className="h-8 object-contain opacity-60" />
+                  <div className="bg-gray-800 text-white px-4 py-1 rounded flex items-center justify-center gap-2">
+                    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                    iBooks
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
