@@ -67,22 +67,6 @@ const Index = () => {
               <LeadForm />
             </div>
           </div>
-
-          {/* Readers Section */}
-          <div className="mt-8 text-center">
-            <div className="flex flex-col items-center space-y-4">
-              <div className="flex -space-x-3 overflow-hidden">
-                <img
-                  src="/lovable-uploads/fa29a560-dcd8-450a-aa98-262d81af5e02.png"
-                  alt="Reader avatars"
-                  className="h-12 w-auto"
-                />
-              </div>
-              <p className="text-lg text-gray-600">
-                <span className="font-semibold text-navy">257</span> other readers have already downloaded the guide
-              </p>
-            </div>
-          </div>
         </div>
       </section>
       
