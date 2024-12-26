@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigation } from '@/components/Navigation';
 import { LeadForm } from '@/components/LeadForm';
 import { Footer } from '@/components/Footer';
-import { Award, Building2, Shield } from 'lucide-react';
+import { Flask, Microscope, Binary } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -13,24 +13,24 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center pt-20">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80"
-            alt="London Skyline"
+            src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
+            alt="Scientific Background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 hero-overlay"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1A1F2C]/90 to-[#1A1F2C]/80"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Unlock the Secrets to High Net Worth Success in the UK
+                Data-Driven Retirement Planning for Your Future
               </h1>
               <p className="text-xl mb-8">
-                Download our exclusive 2025 UK High Net Worth Guide today.
+                Download our research-backed 2025 Retirement Analysis Guide.
               </p>
-              <p className="text-lg font-playfair italic">
-                Your Exclusive Guide to Wealth in 2025
+              <p className="text-lg font-playfair italic text-[#9b87f5]">
+                Empirical Methods for Wealth Preservation
               </p>
             </div>
             
@@ -42,23 +42,23 @@ const Index = () => {
       </section>
       
       {/* Trust Signals */}
-      <section className="py-16 bg-offwhite">
+      <section className="py-16 bg-[#1A1F2C]">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
-              <Award className="w-12 h-12 text-gold mx-auto mb-4" />
-              <h3 className="font-playfair text-xl mb-2">Award Winning</h3>
-              <p className="text-gray-600">Recognized excellence in wealth management</p>
+              <Flask className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
+              <h3 className="font-playfair text-xl mb-2 text-white">Research-Based</h3>
+              <p className="text-gray-300">Methodically tested retirement strategies</p>
             </div>
             <div className="p-6">
-              <Building2 className="w-12 h-12 text-gold mx-auto mb-4" />
-              <h3 className="font-playfair text-xl mb-2">Industry Leading</h3>
-              <p className="text-gray-600">25+ years of market expertise</p>
+              <Microscope className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
+              <h3 className="font-playfair text-xl mb-2 text-white">Data Analysis</h3>
+              <p className="text-gray-300">25+ years of market research</p>
             </div>
             <div className="p-6">
-              <Shield className="w-12 h-12 text-gold mx-auto mb-4" />
-              <h3 className="font-playfair text-xl mb-2">Trusted Partner</h3>
-              <p className="text-gray-600">Secure and confidential service</p>
+              <Binary className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
+              <h3 className="font-playfair text-xl mb-2 text-white">Algorithmic Precision</h3>
+              <p className="text-gray-300">Advanced planning algorithms</p>
             </div>
           </div>
         </div>
