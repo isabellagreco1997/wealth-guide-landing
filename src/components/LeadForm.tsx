@@ -64,41 +64,43 @@ export const LeadForm = () => {
         </button>
 
         <div className="pt-4 border-t border-gray-100">
-          <div className="flex justify-center items-center space-x-2">
-            <div className="w-6 h-6 rounded-full border-2 border-white overflow-hidden shadow-sm">
-              <img 
-                src="https://images.unsplash.com/photo-1517022812141-23620dba5c23?w=48&h=48&fit=crop" 
-                alt="Reader" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="w-6 h-6 rounded-full border-2 border-white overflow-hidden shadow-sm">
-              <img 
-                src="https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=48&h=48&fit=crop" 
-                alt="Reader" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="w-6 h-6 rounded-full border-2 border-white overflow-hidden shadow-sm">
-              <img 
-                src="https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=48&h=48&fit=crop" 
-                alt="Reader" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="w-6 h-6 rounded-full border-2 border-white overflow-hidden shadow-sm">
-              <img 
-                src="https://images.unsplash.com/photo-1452960962994-acf4fd70b632?w=48&h=48&fit=crop" 
-                alt="Reader" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="w-6 h-6 rounded-full border-2 border-white overflow-hidden shadow-sm">
-              <img 
-                src="https://images.unsplash.com/photo-1438565434616-3ef039228b15?w=48&h=48&fit=crop" 
-                alt="Reader" 
-                className="w-full h-full object-cover"
-              />
+          <div className="flex justify-center items-center">
+            <div className="flex -space-x-4">
+              <div className="w-10 h-10 rounded-full border-4 border-white overflow-hidden shadow-md hover:scale-105 transition-transform">
+                <img 
+                  src="https://images.unsplash.com/photo-1517022812141-23620dba5c23?w=48&h=48&fit=crop" 
+                  alt="Reader" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-10 h-10 rounded-full border-4 border-white overflow-hidden shadow-md hover:scale-105 transition-transform">
+                <img 
+                  src="https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=48&h=48&fit=crop" 
+                  alt="Reader" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-10 h-10 rounded-full border-4 border-white overflow-hidden shadow-md hover:scale-105 transition-transform">
+                <img 
+                  src="https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=48&h=48&fit=crop" 
+                  alt="Reader" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-10 h-10 rounded-full border-4 border-white overflow-hidden shadow-md hover:scale-105 transition-transform">
+                <img 
+                  src="https://images.unsplash.com/photo-1452960962994-acf4fd70b632?w=48&h=48&fit=crop" 
+                  alt="Reader" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-10 h-10 rounded-full border-4 border-white overflow-hidden shadow-md hover:scale-105 transition-transform">
+                <img 
+                  src="https://images.unsplash.com/photo-1438565434616-3ef039228b15?w=48&h=48&fit=crop" 
+                  alt="Reader" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
           <p className="text-sm text-gray-600 mt-2">
