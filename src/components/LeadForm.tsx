@@ -62,6 +62,23 @@ export const LeadForm = () => {
         <button type="submit" className="w-full bg-[#9b87f5] text-white px-8 py-3 rounded-lg hover:bg-[#9b87f5]/90 transition-all duration-200 font-semibold">
           Get the Guide
         </button>
+
+        <div className="pt-4 border-t border-gray-100">
+          <div className="flex justify-center -space-x-2">
+            <div className="w-8 h-8 rounded-full border-2 border-white overflow-hidden">
+              <img src="/lovable-uploads/fa29a560-dcd8-450a-aa98-262d81af5e02.png" alt="Reader" className="w-full h-full object-cover" />
+            </div>
+            <div className="w-8 h-8 rounded-full border-2 border-white overflow-hidden">
+              <img src="/lovable-uploads/fa29a560-dcd8-450a-aa98-262d81af5e02.png" alt="Reader" className="w-full h-full object-cover" />
+            </div>
+            <div className="w-8 h-8 rounded-full border-2 border-white overflow-hidden">
+              <img src="/lovable-uploads/fa29a560-dcd8-450a-aa98-262d81af5e02.png" alt="Reader" className="w-full h-full object-cover" />
+            </div>
+          </div>
+          <p className="text-sm text-gray-600 mt-2">
+            Join <span className="font-semibold text-[#9b87f5]">257</span> other readers who downloaded the guide
+          </p>
+        </div>
       </div>
     </form>
   );
