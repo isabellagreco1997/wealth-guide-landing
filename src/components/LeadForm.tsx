@@ -15,11 +15,11 @@ export const LeadForm = () => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4">
       <img 
         src="/lovable-uploads/c03c5eb4-24fe-4d60-81e8-877ae729cab6.png" 
         alt="How Much Money Do I Need to Retire in the UK?" 
-        className="w-full rounded-lg shadow-lg mb-6"
+        className="w-64 mx-auto rounded-lg shadow-lg"
       />
       <form onSubmit={handleSubmit} className="bg-white/95 backdrop-blur-sm p-8 rounded-lg shadow-xl max-w-md w-full">
         <div className="space-y-6">
