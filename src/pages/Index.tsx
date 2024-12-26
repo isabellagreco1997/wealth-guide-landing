@@ -17,7 +17,7 @@ const Index = () => {
             alt="Scientific Background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1A1F2C]/90 to-[#1A1F2C]/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 to-navy/80"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full">
@@ -42,7 +42,7 @@ const Index = () => {
       </section>
       
       {/* Trust Signals */}
-      <section className="py-16 bg-[#1A1F2C]">
+      <section className="py-16 bg-navy">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">

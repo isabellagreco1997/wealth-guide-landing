@@ -10,13 +10,13 @@ export const Footer = () => {
           <div>
             <h3 className="font-playfair text-xl mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-gold transition-colors">
+              <a href="#" className="hover:text-[#9b87f5] transition-colors">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="hover:text-gold transition-colors">
+              <a href="#" className="hover:text-[#9b87f5] transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="#" className="hover:text-gold transition-colors">
+              <a href="#" className="hover:text-[#9b87f5] transition-colors">
                 <Twitter size={24} />
               </a>
             </div>
@@ -27,8 +27,8 @@ export const Footer = () => {
               Your privacy is important to us. We handle all submitted data with strict confidentiality.
             </p>
             <div className="space-x-4">
-              <Link to="#" className="text-gold hover:underline">Terms of Service</Link>
-              <Link to="#" className="text-gold hover:underline">Privacy Policy</Link>
+              <Link to="#" className="text-[#9b87f5] hover:underline">Terms of Service</Link>
+              <Link to="#" className="text-[#9b87f5] hover:underline">Privacy Policy</Link>
             </div>
           </div>
         </div>
