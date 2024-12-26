@@ -24,7 +24,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Data-Driven Retirement Planning for Your Future
+                Retirement Planning Science: Four Key Steps to Secure a Better Retirement in the UK
               </h1>
               <p className="text-xl mb-8">
                 Download our research-backed 2025 Retirement Analysis Guide.
