@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigation } from '@/components/Navigation';
 import { LeadForm } from '@/components/LeadForm';
 import { Footer } from '@/components/Footer';
-import { Flask, Microscope, Binary } from 'lucide-react';
+import { TestTube, Microscope, Binary } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -46,7 +46,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
-              <Flask className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
+              <TestTube className="w-12 h-12 text-[#9b87f5] mx-auto mb-4" />
               <h3 className="font-playfair text-xl mb-2 text-white">Research-Based</h3>
               <p className="text-gray-300">Methodically tested retirement strategies</p>
             </div>
