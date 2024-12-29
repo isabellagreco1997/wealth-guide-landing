@@ -10,8 +10,8 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-32 md:pt-5 bg-white px-4 md:px-0">
-        <div className="max-w-7xl mx-auto w-full">
+      <section className="relative min-h-screen flex items-center pt-32 md:pt-5 bg-white px-6 md:px-8 lg:px-12">
+        <div className="container mx-auto max-w-7xl">
           <div className="grid md:grid-cols-2 gap-4 md:gap-12 items-center">
             <div className="space-y-8 md:space-y-8 text-center md:text-left">
               <h1 className="font-playfair text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0">
