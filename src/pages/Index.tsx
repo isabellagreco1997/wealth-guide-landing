@@ -63,7 +63,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center relative">
+            <div className="flex justify-center items-center relative pt-16">
               <img
                 src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
                 alt="Retirement Planning Expert"
