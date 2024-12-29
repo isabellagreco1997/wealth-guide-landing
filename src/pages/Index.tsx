@@ -2,17 +2,6 @@ import React from 'react';
 import { Navigation } from '@/components/Navigation';
 import { LeadForm } from '@/components/LeadForm';
 import { Footer } from '@/components/Footer';
-
-Let's adjust the padding and spacing in the Index page to ensure the title remains visible on all screen sizes.
-
-<lov-code>
-We'll update the Index.tsx file to improve the responsive behavior:
-
-<lov-write file_path="src/pages/Index.tsx">
-import React from 'react';
-import { Navigation } from '@/components/Navigation';
-import { LeadForm } from '@/components/LeadForm';
-import { Footer } from '@/components/Footer';
 import { Check } from 'lucide-react';
 
 const Index = () => {
