@@ -11,16 +11,16 @@ export const Footer = () => {
           <div>
             <h3 className="font-playfair text-xl mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-[#9b87f5] transition-colors">
+              <a href="#" className="hover:text-[#F97316] transition-colors">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="hover:text-[#9b87f5] transition-colors">
+              <a href="#" className="hover:text-[#F97316] transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="#" className="hover:text-[#9b87f5] transition-colors">
+              <a href="#" className="hover:text-[#F97316] transition-colors">
                 <Twitter size={24} />
               </a>
-              <a href="#" className="hover:text-[#9b87f5] transition-colors">
+              <a href="#" className="hover:text-[#F97316] transition-colors">
                 <TikTokIcon size={24} />
               </a>
             </div>
@@ -30,13 +30,13 @@ export const Footer = () => {
             <h3 className="font-playfair text-xl mb-4">Legal</h3>
             <div className="space-y-2">
               <div>
-                <Link to="/terms-of-use" className="text-[#9b87f5] hover:underline">Terms of Use</Link>
+                <Link to="/terms-of-use" className="text-[#F97316] hover:underline">Terms of Use</Link>
               </div>
               <div>
-                <Link to="/privacy-policy" className="text-[#9b87f5] hover:underline">Privacy Policy</Link>
+                <Link to="/privacy-policy" className="text-[#F97316] hover:underline">Privacy Policy</Link>
               </div>
               <div>
-                <Link to="/cookie-policy" className="text-[#9b87f5] hover:underline">Cookie Policy</Link>
+                <Link to="/cookie-policy" className="text-[#F97316] hover:underline">Cookie Policy</Link>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export const Footer = () => {
             <div className="space-y-2">
               <p>Have questions? We're here to help.</p>
               <div>
-                <Link to="/contact" className="text-[#9b87f5] hover:underline">Contact Us</Link>
+                <Link to="/contact" className="text-[#F97316] hover:underline">Contact Us</Link>
               </div>
             </div>
           </div>

@@ -20,7 +20,8 @@ export default {
     extend: {
       colors: {
         navy: "#1A2B3C",
-        gold: "#F97316", // Changed to bright orange
+        gold: "#F97316",
+        goldLight: "#FFF4ED",
         offwhite: "#F5F5F5",
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
