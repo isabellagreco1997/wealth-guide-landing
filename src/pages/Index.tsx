@@ -14,16 +14,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <div className="flex flex-col md:flex-row gap-8 items-center md:items-start mb-8">
-                <img
-                  src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
-                  alt="Retirement Planning Expert"
-                  className="w-48 h-48 rounded-full object-cover shadow-lg mb-4 md:mb-0"
-                />
-                <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-navy">
-                  How Much Money Do I Need to Retire?
-                </h1>
-              </div>
+              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-navy">
+                How Much Money Do I Need to Retire?
+              </h1>
               
               <div className="space-y-2">
                 <h2 className="text-2xl md:text-3xl font-playfair">
@@ -70,7 +63,12 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center relative">
+              <img
+                src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
+                alt="Retirement Planning Expert"
+                className="w-32 h-32 rounded-full object-cover shadow-lg absolute -top-16 -left-16 z-10"
+              />
               <LeadForm />
             </div>
           </div>
