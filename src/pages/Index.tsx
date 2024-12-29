@@ -13,7 +13,7 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center pt-32 md:pt-5 bg-white px-4 md:px-0">
         <div className="max-w-7xl mx-auto w-full">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8 md:space-y-8">
+            <div className="space-y-8 md:space-y-8 text-center md:text-left">
               <h1 className="font-playfair text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0">
                 How Much Money Do I Need to Retire?
               </h1>
@@ -37,7 +37,7 @@ const Index = () => {
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#E5DEFF] flex items-center justify-center">
                     <Check className="w-5 h-5 text-[#9b87f5]" />
                   </div>
-                  <p className="text-base md:text-lg text-gray-700">
+                  <p className="text-base md:text-lg text-gray-700 text-left">
                     The conventional approach to retirement planning is fundamentally flawed. It can lead you to underspend and be miserable or overspend and run out of money.
                   </p>
                 </div>
@@ -46,7 +46,7 @@ const Index = () => {
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#E5DEFF] flex items-center justify-center">
                     <Check className="w-5 h-5 text-[#9b87f5]" />
                   </div>
-                  <p className="text-base md:text-lg text-gray-700">
+                  <p className="text-base md:text-lg text-gray-700 text-left">
                     Get a step-by-step, easy-to-understand plan to calculate your retirement needs with confidence.
                   </p>
                 </div>
@@ -55,16 +55,16 @@ const Index = () => {
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#E5DEFF] flex items-center justify-center">
                     <Check className="w-5 h-5 text-[#9b87f5]" />
                   </div>
-                  <p className="text-base md:text-lg text-gray-700">
+                  <p className="text-base md:text-lg text-gray-700 text-left">
                     You'll discover how to calculate the amount of money you really need to retire on the first try without software, online calculators, or being a math genius.
                   </p>
                 </div>
 
-                <div className="flex items-start gap-4">
+                <div className="hidden md:flex items-start gap-4">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#E5DEFF] flex items-center justify-center">
                     <Check className="w-5 h-5 text-[#9b87f5]" />
                   </div>
-                  <p className="text-base md:text-lg text-gray-700">
+                  <p className="text-base md:text-lg text-gray-700 text-left">
                     Provides the most empowering solution to figuring out your retirement so you control the outcome.
                   </p>
                 </div>
