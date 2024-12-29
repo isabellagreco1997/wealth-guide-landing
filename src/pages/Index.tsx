@@ -22,7 +22,7 @@ const Index = () => {
                 <img
                   src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
                   alt="Retirement Planning Expert"
-                  className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover shadow-xl border-4 border-white"
+                  className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover shadow-xl border-4 border-[#F97316]"
                 />
                 <div className="relative bg-[#FFF4ED] p-4 rounded-lg shadow-md">
                   <div className="absolute left-0 top-1/2 -translate-x-2 transform -translate-y-1/2 w-0 h-0 border-t-8 border-t-transparent border-r-[16px] border-r-[#FFF4ED] border-b-8 border-b-transparent"></div>
