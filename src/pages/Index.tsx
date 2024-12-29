@@ -18,6 +18,15 @@ const Index = () => {
                 How Much Money Do I Need to Retire?
               </h1>
               
+              {/* Portrait image for mobile only */}
+              <div className="block md:hidden w-full flex justify-center">
+                <img
+                  src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
+                  alt="Retirement Planning Expert"
+                  className="w-32 h-32 rounded-full object-cover shadow-xl border-4 border-white"
+                />
+              </div>
+              
               <div className="space-y-2 mt-8 md:mt-0">
                 <h2 className="text-xl md:text-3xl font-playfair">
                   Learn How Retirement Planning <span className="italic">Really</span> Works Before It's Too Late...
@@ -65,10 +74,11 @@ const Index = () => {
 
             <div className="w-full flex justify-center items-center relative mt-4 md:mt-0">
               <div className="relative w-full">
+                {/* Portrait image for desktop only */}
                 <img
                   src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
                   alt="Retirement Planning Expert"
-                  className="absolute -top-16 -left-4 w-32 h-32 rounded-full object-cover shadow-xl border-4 border-white z-10"
+                  className="hidden md:block absolute -top-16 -left-4 w-32 h-32 rounded-full object-cover shadow-xl border-4 border-white z-10"
                 />
                 <LeadForm />
               </div>
