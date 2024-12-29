@@ -24,6 +24,14 @@ const Index = () => {
                 </h2>
               </div>
 
+              <div className="flex justify-center">
+                <img
+                  src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
+                  alt="Retirement Planning Expert"
+                  className="w-32 h-32 rounded-full object-cover shadow-xl border-4 border-white"
+                />
+              </div>
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#E5DEFF] flex items-center justify-center">
@@ -64,11 +72,6 @@ const Index = () => {
             </div>
 
             <div className="flex justify-center items-center relative mt-8 md:mt-0">
-              <img
-                src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
-                alt="Retirement Planning Expert"
-                className="w-40 h-40 rounded-full object-cover shadow-xl absolute -top-12 -left-12 z-10 border-4 border-white"
-              />
               <LeadForm />
             </div>
           </div>
