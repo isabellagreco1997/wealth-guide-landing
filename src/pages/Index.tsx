@@ -10,11 +10,11 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-32 md:pt-5 bg-white px-6 md:px-8 lg:px-12">
+      <section className="relative min-h-screen flex items-center pt-16 md:pt-5 bg-white px-4 md:px-8 lg:px-12 overflow-x-hidden">
         <div className="container mx-auto max-w-7xl">
           <div className="grid md:grid-cols-2 gap-4 md:gap-12 items-center">
-            <div className="space-y-8 md:space-y-8 text-center md:text-left">
-              <h1 className="font-playfair text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0">
+            <div className="space-y-6 md:space-y-8 text-center md:text-left">
+              <h1 className="font-playfair text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-4 md:mb-0 max-w-full break-words">
                 How Much Money Do I Need to Retire?
               </h1>
               
@@ -27,8 +27,8 @@ const Index = () => {
                 />
               </div>
               
-              <div className="space-y-2 mt-8 md:mt-0">
-                <h2 className="text-xl md:text-3xl font-playfair">
+              <div className="space-y-2">
+                <h2 className="text-lg sm:text-xl md:text-3xl font-playfair">
                   Learn How Retirement Planning <span className="italic">Really</span> Works Before It's Too Late...
                 </h2>
               </div>
