@@ -71,7 +71,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center relative mt-4 md:mt-0">
+            <div className="w-full flex justify-center items-center relative mt-4 md:mt-0">
               <LeadForm />
             </div>
           </div>
