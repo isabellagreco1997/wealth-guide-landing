@@ -8,7 +8,7 @@ export const FormSpeechBubble = () => (
       </p>
     </div>
     <img 
-      src="/lovable-uploads/04defb3c-86b9-4145-a2c4-6eb933e3185f.png" 
+      src="/lovable-uploads/5a91b28a-1e23-479d-b6d3-48ba244b7963.png" 
       alt="Arrow pointing to form"
       className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 w-24 h-12 object-contain hidden md:block"
     />
