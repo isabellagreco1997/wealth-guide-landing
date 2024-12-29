@@ -67,7 +67,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
                 alt="Retirement Planning Expert"
-                className="w-32 h-32 rounded-full object-cover shadow-lg absolute -top-16 -left-16 z-10"
+                className="w-40 h-40 rounded-full object-cover shadow-xl absolute -top-12 -left-12 z-10 border-4 border-white"
               />
               <LeadForm />
             </div>
