@@ -12,7 +12,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-32 sm:pt-28 md:pt-24 bg-white px-4 md:px-8 lg:px-12 overflow-x-hidden">
         <div className="container mx-auto max-w-7xl">
-          <div className="grid md:grid-cols-2 gap-4 md:gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-12 items-start">
             <div className="space-y-6 md:space-y-8 text-center md:text-left">
               <h1 className="font-playfair text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-4 md:mb-0 max-w-full break-words">
                 How Much Money Do I Need to Retire?
@@ -30,6 +30,11 @@ const Index = () => {
                     Learn How Retirement Planning <span className="italic">Really</span> Works Before It's Too Late...
                   </h2>
                 </div>
+              </div>
+
+              {/* Lead Form for mobile only */}
+              <div className="md:hidden">
+                <LeadForm />
               </div>
 
               <div className="space-y-6">
@@ -71,7 +76,8 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="w-full flex justify-center items-center relative mt-4 md:mt-0">
+            {/* Lead Form for desktop only */}
+            <div className="hidden md:flex w-full justify-center items-center relative mt-4 md:mt-0">
               <LeadForm />
             </div>
           </div>
