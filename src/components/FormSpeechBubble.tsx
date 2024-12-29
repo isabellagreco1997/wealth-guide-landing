@@ -7,10 +7,5 @@ export const FormSpeechBubble = () => (
         Enter your Name, Email Address, and Mobile, and we'll send you your <strong className="text-[#F97316]">free guide</strong>.
       </p>
     </div>
-    <img 
-      src="/lovable-uploads/5a91b28a-1e23-479d-b6d3-48ba244b7963.png" 
-      alt="Arrow pointing to form"
-      className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 w-40 h-20 object-contain hidden md:block z-50 [filter:brightness(0)_saturate(100%)_invert(56%)_sepia(93%)_saturate(1944%)_hue-rotate(346deg)_brightness(99%)_contrast(96%)]"
-    />
   </div>
 );
