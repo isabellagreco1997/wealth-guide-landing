@@ -12,7 +12,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-32 md:pt-5 bg-white px-4 md:px-0">
         <div className="max-w-7xl mx-auto w-full">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-12 items-center">
             <div className="space-y-8 md:space-y-8 text-center md:text-left">
               <h1 className="font-playfair text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0">
                 How Much Money Do I Need to Retire?
@@ -71,7 +71,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center relative mt-8 md:mt-0">
+            <div className="flex justify-center items-center relative mt-4 md:mt-0">
               <LeadForm />
             </div>
           </div>
