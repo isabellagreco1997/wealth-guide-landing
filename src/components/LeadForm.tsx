@@ -24,7 +24,7 @@ export const LeadForm = () => {
     <div className="w-full flex flex-col items-center">
       <div className="bg-[#C4756D] text-white p-4 rounded-lg mb-6 text-center w-full max-w-md">
         <p className="text-lg md:text-xl font-medium">
-          Enter your Name, Email Address, and Mobile, and we'll send you the "How Much Money Do I Need to Retire" Guide.
+          Enter your Name, Email Address, and Mobile, and we'll send you your free guide.
         </p>
       </div>
       <form onSubmit={handleSubmit} className="bg-white/95 backdrop-blur-sm p-6 md:p-8 rounded-lg shadow-xl w-full max-w-md">
