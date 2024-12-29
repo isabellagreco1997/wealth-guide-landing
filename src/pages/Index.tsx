@@ -37,7 +37,7 @@ const Index = () => {
                 <LeadForm />
               </div>
 
-              <div className="space-y-8">
+              <div className="space-y-8 mb-16 md:mb-24">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#E5DEFF] flex items-center justify-center">
                     <Check className="w-5 h-5 text-[#9b87f5]" />
