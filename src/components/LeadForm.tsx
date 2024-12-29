@@ -21,8 +21,8 @@ export const LeadForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white/95 backdrop-blur-sm p-8 rounded-lg shadow-xl max-w-md w-full">
-      <div className="space-y-6">
+    <form onSubmit={handleSubmit} className="bg-white/95 backdrop-blur-sm p-6 md:p-8 rounded-lg shadow-xl w-full max-w-md mx-auto">
+      <div className="space-y-4 md:space-y-6">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-navy mb-1">
             Full Name
@@ -31,7 +31,7 @@ export const LeadForm = () => {
             type="text"
             id="name"
             required
-            className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9b87f5]/50 focus:border-[#9b87f5] transition-all duration-200"
+            className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9b87f5]/50 focus:border-[#9b87f5] transition-all duration-200"
             value={formData.name}
             onChange={(e) => setFormData(prev => ({ ...prev, name: e.target.value }))}
           />
@@ -45,7 +45,7 @@ export const LeadForm = () => {
             type="email"
             id="email"
             required
-            className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9b87f5]/50 focus:border-[#9b87f5] transition-all duration-200"
+            className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9b87f5]/50 focus:border-[#9b87f5] transition-all duration-200"
             value={formData.email}
             onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
           />
@@ -59,7 +59,7 @@ export const LeadForm = () => {
             type="tel"
             id="mobile"
             required
-            className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9b87f5]/50 focus:border-[#9b87f5] transition-all duration-200"
+            className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9b87f5]/50 focus:border-[#9b87f5] transition-all duration-200"
             value={formData.mobile}
             onChange={(e) => setFormData(prev => ({ ...prev, mobile: e.target.value }))}
           />
@@ -76,13 +76,13 @@ export const LeadForm = () => {
           />
           <label 
             htmlFor="consent" 
-            className="text-sm text-gray-600 leading-tight"
+            className="text-xs md:text-sm text-gray-600 leading-tight"
           >
             By ticking this box, I understand I will receive this free guide and ongoing insights from Retirement Scientist by email or phone
           </label>
         </div>
         
-        <button type="submit" className="w-full bg-[#9b87f5] text-white px-8 py-3 rounded-lg hover:bg-[#9b87f5]/90 transition-all duration-200 font-semibold">
+        <button type="submit" className="w-full bg-[#9b87f5] text-white px-6 md:px-8 py-2 md:py-3 rounded-lg hover:bg-[#9b87f5]/90 transition-all duration-200 font-semibold">
           Get the Guide
         </button>
       </div>
