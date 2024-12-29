@@ -10,12 +10,6 @@ export const Navigation = () => {
           <TestTube className="w-6 h-6 text-[#F97316]" />
           <span>Retirement Scientist</span>
         </Link>
-        
-        <div className="hidden md:flex items-center space-x-8">
-          <Link to="#" className="text-white hover:text-[#F97316] transition-colors duration-200">About</Link>
-          <Link to="#" className="text-white hover:text-[#F97316] transition-colors duration-200">Contact</Link>
-          <Link to="/privacy-policy" className="text-white hover:text-[#F97316] transition-colors duration-200">Privacy Policy</Link>
-        </div>
       </div>
     </nav>
   );
