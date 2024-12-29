@@ -14,9 +14,22 @@ const Index = () => {
         <div className="container mx-auto max-w-7xl">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div className="space-y-8 md:space-y-8 text-center md:text-left">
-              <h1 className="font-playfair text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
-                How Much <span className="text-[#F97316]">Money</span> Do I Need to Retire?
-              </h1>
+              <div className="relative">
+                <h1 className="font-playfair text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-navy mb-2 md:mb-0 max-w-full break-words relative">
+                  <span className="bg-gradient-to-r from-[#F97316] to-[#F97316]/80 bg-clip-text text-transparent">How Much Money</span>
+                  <br className="block md:hidden" />
+                  <span className="relative inline-block">
+                    Do I Need
+                    <div className="absolute -bottom-2 left-0 w-full h-1 bg-[#F97316]/20 rounded-full"></div>
+                  </span>
+                  <br className="block md:hidden" />
+                  <span className="relative inline-block">
+                    to Retire?
+                    <div className="absolute -bottom-2 left-0 w-full h-1 bg-[#F97316]/20 rounded-full"></div>
+                  </span>
+                </h1>
+                <div className="hidden sm:block absolute -right-4 -top-4 w-20 h-20 bg-[#FFF4ED] rounded-full -z-10 opacity-50"></div>
+              </div>
 
               <div className="flex items-center gap-6 md:gap-8">
                 <img
