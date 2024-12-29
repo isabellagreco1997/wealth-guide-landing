@@ -26,7 +26,10 @@ export const LeadForm = () => {
       <FormSpeechBubble />
       <form onSubmit={handleSubmit} className="bg-white/95 backdrop-blur-sm p-6 md:p-8 rounded-lg shadow-xl w-full max-w-md">
         <LeadFormInputs formData={formData} setFormData={setFormData} />
-        <button type="submit" className="w-full bg-[#8B5CF6] text-white px-6 md:px-8 py-2 md:py-3 rounded-lg hover:bg-[#8B5CF6]/90 transition-all duration-200 font-semibold mt-6">
+        <button 
+          type="submit" 
+          className="w-full bg-[#F97316] text-white px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-[#F97316]/90 transition-all duration-200 font-bold text-lg uppercase tracking-wide shadow-lg hover:shadow-xl hover:transform hover:scale-[1.02] hover:-translate-y-0.5 active:transform active:scale-[0.98] mt-6"
+        >
           Get the Guide
         </button>
       </form>
