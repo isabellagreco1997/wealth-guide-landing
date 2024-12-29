@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Linkedin, Twitter } from 'lucide-react';
+import { Facebook, Linkedin, Twitter, TiktokIcon } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -18,6 +18,9 @@ export const Footer = () => {
               </a>
               <a href="#" className="hover:text-[#9b87f5] transition-colors">
                 <Twitter size={24} />
+              </a>
+              <a href="#" className="hover:text-[#9b87f5] transition-colors">
+                <TiktokIcon size={24} />
               </a>
             </div>
           </div>
