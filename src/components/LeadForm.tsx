@@ -22,7 +22,7 @@ export const LeadForm = () => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="bg-[#9b87f5] text-white p-4 rounded-lg mb-6 text-center w-full max-w-md">
+      <div className="bg-[#D946EF] text-white p-4 rounded-lg mb-6 text-center w-full max-w-md">
         <p className="text-lg md:text-xl font-medium">
           Enter your Name, Email Address, and Mobile, and we'll send you your free guide.
         </p>
