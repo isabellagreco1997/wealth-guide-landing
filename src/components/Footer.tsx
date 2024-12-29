@@ -28,7 +28,7 @@ export const Footer = () => {
             </p>
             <div className="space-x-4">
               <Link to="#" className="text-[#9b87f5] hover:underline">Terms of Service</Link>
-              <Link to="#" className="text-[#9b87f5] hover:underline">Privacy Policy</Link>
+              <Link to="/privacy-policy" className="text-[#9b87f5] hover:underline">Privacy Policy</Link>
             </div>
           </div>
         </div>
