@@ -10,15 +10,15 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-32 sm:pt-28 md:pt-24 bg-white px-4 md:px-8 lg:px-12 overflow-x-hidden">
+      <section className="relative min-h-screen flex items-center pt-32 sm:pt-28 md:pt-24 bg-white px-6 md:px-8 lg:px-12 overflow-x-hidden">
         <div className="container mx-auto max-w-7xl">
-          <div className="grid md:grid-cols-2 gap-4 md:gap-12 items-start">
-            <div className="space-y-6 md:space-y-8 text-center md:text-left">
-              <h1 className="font-playfair text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-4 md:mb-0 max-w-full break-words">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+            <div className="space-y-8 md:space-y-8 text-center md:text-left">
+              <h1 className="font-playfair text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
                 How Much Money Do I Need to Retire?
               </h1>
 
-              <div className="flex items-center gap-4 md:gap-8">
+              <div className="flex items-center gap-6 md:gap-8">
                 <img
                   src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
                   alt="Retirement Planning Expert"
@@ -33,11 +33,11 @@ const Index = () => {
               </div>
 
               {/* Lead Form for mobile only */}
-              <div className="md:hidden">
+              <div className="md:hidden mt-8 mb-8">
                 <LeadForm />
               </div>
 
-              <div className="space-y-6">
+              <div className="space-y-8">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#E5DEFF] flex items-center justify-center">
                     <Check className="w-5 h-5 text-[#9b87f5]" />
