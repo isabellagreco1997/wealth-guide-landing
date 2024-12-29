@@ -15,7 +15,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div className="space-y-8 md:space-y-8 text-center md:text-left">
               <h1 className="font-playfair text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
-                How Much <span className="text-[#F97316]">Money</span> Do I Need to <span className="text-[#F97316]">Retire</span>?
+                How Much <span className="text-[#F97316]">Money</span> Do I Need to Retire?
               </h1>
 
               <div className="flex items-center gap-6 md:gap-8">
