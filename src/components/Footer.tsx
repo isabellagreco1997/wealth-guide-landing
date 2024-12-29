@@ -4,7 +4,7 @@ import { Facebook, Linkedin, Twitter } from 'lucide-react';
 
 export const Footer = () => {
   return (
-    <footer className="bg-navy text-white py-12">
+    <footer className="bg-[#1A1F2C] text-white py-12">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
