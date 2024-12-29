@@ -22,11 +22,15 @@ export const LeadForm = () => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="relative bg-[#D946EF] text-white p-4 rounded-lg mb-6 text-center w-full max-w-md">
-        <p className="text-lg md:text-xl font-medium">
+      <div className="relative bg-[#D946EF] text-white p-6 rounded-lg mb-8 text-center w-full max-w-md shadow-lg transform hover:scale-105 transition-transform duration-200">
+        <p className="text-xl md:text-2xl font-semibold">
           Enter your Name, Email Address, and Mobile, and we'll send you your free guide.
         </p>
-        <div className="absolute left-0 bottom-0 transform translate-y-full w-0 h-0 border-t-8 border-t-[#D946EF] border-r-8 border-r-transparent border-l-8 border-l-transparent"></div>
+        <div className="absolute left-0 bottom-0 transform translate-y-full w-0 h-0 
+             border-t-[20px] border-t-[#D946EF] 
+             border-r-[20px] border-r-transparent 
+             border-l-[20px] border-l-transparent">
+        </div>
       </div>
       <form onSubmit={handleSubmit} className="bg-white/95 backdrop-blur-sm p-6 md:p-8 rounded-lg shadow-xl w-full max-w-md">
         <div className="space-y-4 md:space-y-6">
