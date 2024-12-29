@@ -17,20 +17,19 @@ const Index = () => {
               <h1 className="font-playfair text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-navy mb-4 md:mb-0 max-w-full break-words">
                 How Much Money Do I Need to Retire?
               </h1>
-              
-              {/* Portrait image for mobile only */}
-              <div className="block md:hidden w-full flex justify-center">
+
+              <div className="flex items-center gap-4 md:gap-8">
                 <img
                   src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
                   alt="Retirement Planning Expert"
-                  className="w-32 h-32 rounded-full object-cover shadow-xl border-4 border-white"
+                  className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover shadow-xl border-4 border-white"
                 />
-              </div>
-              
-              <div className="space-y-2">
-                <h2 className="text-lg sm:text-xl md:text-3xl font-playfair">
-                  Learn How Retirement Planning <span className="italic">Really</span> Works Before It's Too Late...
-                </h2>
+                <div className="relative bg-[#E5DEFF] p-4 rounded-lg shadow-md">
+                  <div className="absolute left-0 top-1/2 -translate-x-2 transform -translate-y-1/2 w-0 h-0 border-t-8 border-t-transparent border-r-[16px] border-r-[#E5DEFF] border-b-8 border-b-transparent"></div>
+                  <h2 className="text-lg sm:text-xl md:text-2xl font-playfair text-navy">
+                    Learn How Retirement Planning <span className="italic">Really</span> Works Before It's Too Late...
+                  </h2>
+                </div>
               </div>
 
               <div className="space-y-6">
@@ -73,15 +72,7 @@ const Index = () => {
             </div>
 
             <div className="w-full flex justify-center items-center relative mt-4 md:mt-0">
-              <div className="relative w-full">
-                {/* Portrait image for desktop only */}
-                <img
-                  src="/lovable-uploads/3a40dfbc-1371-4b27-afb0-d7e3f48919bf.png"
-                  alt="Retirement Planning Expert"
-                  className="hidden md:block absolute -top-16 -left-4 w-32 h-32 rounded-full object-cover shadow-xl border-4 border-white z-10"
-                />
-                <LeadForm />
-              </div>
+              <LeadForm />
             </div>
           </div>
         </div>
