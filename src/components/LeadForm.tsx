@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
 import { toast } from 'sonner';
+import { Checkbox } from "@/components/ui/checkbox";
 
 export const LeadForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    mobile: ''
+    mobile: '',
+    consent: false
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!formData.consent) {
+      toast.error("Please accept the terms to continue");
+      return;
+    }
     toast.success("Thank you for your interest! Check your email for the guide.");
-    setFormData({ name: '', email: '', mobile: '' });
+    setFormData({ name: '', email: '', mobile: '', consent: false });
   };
 
   return (
@@ -57,6 +63,23 @@ export const LeadForm = () => {
             value={formData.mobile}
             onChange={(e) => setFormData(prev => ({ ...prev, mobile: e.target.value }))}
           />
+        </div>
+
+        <div className="flex items-start space-x-3">
+          <Checkbox
+            id="consent"
+            checked={formData.consent}
+            onCheckedChange={(checked) => 
+              setFormData(prev => ({ ...prev, consent: checked as boolean }))
+            }
+            className="mt-1"
+          />
+          <label 
+            htmlFor="consent" 
+            className="text-sm text-gray-600 leading-tight"
+          >
+            By ticking this box, I understand I will receive this free guide and ongoing insights from Retirement Scientist by email or phone
+          </label>
         </div>
         
         <button type="submit" className="w-full bg-[#9b87f5] text-white px-8 py-3 rounded-lg hover:bg-[#9b87f5]/90 transition-all duration-200 font-semibold">
