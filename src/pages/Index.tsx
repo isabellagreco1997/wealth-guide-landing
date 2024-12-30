@@ -14,7 +14,7 @@ const Index = () => {
         <div className="container mx-auto max-w-7xl">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div className="space-y-8 md:space-y-8 text-left">
-              <h1 className="font-playfair text-5xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
+              <h1 className="text-5xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
                 How Anyone Can <span className="text-[#F97316]">Retire Early</span> In 10 Years (Or Less!)
               </h1>
 
@@ -26,7 +26,7 @@ const Index = () => {
                 />
                 <div className="relative bg-[#FFF4ED] p-4 rounded-lg shadow-md">
                   <div className="absolute left-0 top-1/2 -translate-x-2 transform -translate-y-1/2 w-0 h-0 border-t-8 border-t-transparent border-r-[16px] border-r-[#FFF4ED] border-b-8 border-b-transparent"></div>
-                  <h2 className="text-lg sm:text-xl md:text-2xl font-playfair text-[#F97316]">
+                  <h2 className="text-lg sm:text-xl md:text-2xl text-[#F97316]">
                     Learn How Retirement Planning <span className="italic">Really</span> Works Before It's Too Late...
                   </h2>
                 </div>
