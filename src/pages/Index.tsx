@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigation } from '@/components/Navigation';
 import { LeadForm } from '@/components/LeadForm';
 import { Footer } from '@/components/Footer';
-import { Check, Clock, DollarSign, BookOpen, Target, TrendingUp } from 'lucide-react';
+import { Check, Clock, DollarSign, BookOpen, Target, TrendingUp, Shield, Lightbulb, Calculator, PiggyBank, LineChart, Users } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -96,33 +96,80 @@ const Index = () => {
                 <Clock className="w-6 h-6 text-gold" />
               </div>
               <h3 className="text-xl font-bold text-navy mb-3">Wrong Timing</h3>
-              <p className="text-gray-600">Most people start planning too late, missing out on the power of compound interest and strategic investments.</p>
+              <p className="text-gray-600">Most people start planning too late, missing out on the power of compound interest and strategic investments. The earlier you start, the less you need to save each month.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
                 <DollarSign className="w-6 h-6 text-gold" />
               </div>
               <h3 className="text-xl font-bold text-navy mb-3">Poor Strategy</h3>
-              <p className="text-gray-600">Traditional retirement advice often leads to overspending or living too frugally, neither of which is sustainable.</p>
+              <p className="text-gray-600">Traditional retirement advice often leads to overspending or living too frugally. Our guide shows you how to find the perfect balance for sustainable wealth building.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
                 <BookOpen className="w-6 h-6 text-gold" />
               </div>
               <h3 className="text-xl font-bold text-navy mb-3">Limited Knowledge</h3>
-              <p className="text-gray-600">Without proper guidance, many make costly mistakes that delay their retirement dreams by years or decades.</p>
+              <p className="text-gray-600">Without proper guidance, many make costly mistakes. Our comprehensive guide provides the exact blueprint successful early retirees have used.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Common Mistakes Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-navy text-center mb-12">
+            Common <span className="text-gold">Retirement Planning</span> Mistakes
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
+                <PiggyBank className="w-5 h-5 text-red-500" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-navy mb-2">Underestimating Expenses</h3>
+                <p className="text-gray-600">Many people forget to account for healthcare costs, inflation, and lifestyle changes in retirement.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
+                <Calculator className="w-5 h-5 text-red-500" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-navy mb-2">Wrong Calculations</h3>
+                <p className="text-gray-600">Using oversimplified retirement calculators that don't account for your unique situation.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
+                <LineChart className="w-5 h-5 text-red-500" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-navy mb-2">Poor Investment Strategy</h3>
+                <p className="text-gray-600">Failing to diversify investments or taking too much/too little risk with retirement savings.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
+                <Users className="w-5 h-5 text-red-500" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-navy mb-2">Following Bad Advice</h3>
+                <p className="text-gray-600">Taking retirement advice from unqualified sources or following outdated strategies.</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* What You'll Learn Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-navy/5">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-navy text-center mb-12">
             What You'll Learn in Our <span className="text-gold">Free Guide</span>
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gold/10 flex items-center justify-center">
@@ -130,7 +177,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-navy mb-2">Calculate Your Magic Number</h3>
-                  <p className="text-gray-600">Learn the exact formula to determine how much you need to retire comfortably, tailored to your lifestyle.</p>
+                  <p className="text-gray-600">Learn the exact formula to determine how much you need to retire comfortably, tailored to your lifestyle and goals. Our step-by-step process makes it simple.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -139,29 +186,76 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-navy mb-2">Investment Strategy Blueprint</h3>
-                  <p className="text-gray-600">Discover the proven investment approach that can accelerate your path to financial independence.</p>
+                  <p className="text-gray-600">Discover the proven investment approach that can accelerate your path to financial independence, including asset allocation and risk management strategies.</p>
                 </div>
               </div>
             </div>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gold/10 flex items-center justify-center">
-                  <Check className="w-5 h-5 text-gold" />
+                  <Shield className="w-5 h-5 text-gold" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-navy mb-2">Tax Optimization Secrets</h3>
-                  <p className="text-gray-600">Learn how to legally minimize your tax burden and keep more of your hard-earned money.</p>
+                  <p className="text-gray-600">Learn advanced tax strategies used by early retirees to legally minimize their tax burden and keep more of their hard-earned money working for them.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gold/10 flex items-center justify-center">
-                  <Check className="w-5 h-5 text-gold" />
+                  <Lightbulb className="w-5 h-5 text-gold" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-navy mb-2">Risk Management Framework</h3>
-                  <p className="text-gray-600">Protect your wealth with our comprehensive approach to managing investment and lifestyle risks.</p>
+                  <p className="text-gray-600">Master the art of protecting your wealth with our comprehensive approach to managing investment and lifestyle risks throughout retirement.</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Social Proof Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-navy text-center mb-12">
+            Join Thousands Who Have Already <span className="text-gold">Started Their Journey</span>
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center">
+                  <Users className="w-6 h-6 text-gold" />
+                </div>
+                <div className="ml-4">
+                  <h4 className="font-bold text-navy">Michael S.</h4>
+                  <p className="text-sm text-gray-500">Software Engineer</p>
+                </div>
+              </div>
+              <p className="text-gray-600">"This guide completely changed my perspective on retirement planning. I'm now on track to retire 15 years earlier than I originally planned!"</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center">
+                  <Users className="w-6 h-6 text-gold" />
+                </div>
+                <div className="ml-4">
+                  <h4 className="font-bold text-navy">Sarah L.</h4>
+                  <p className="text-sm text-gray-500">Business Owner</p>
+                </div>
+              </div>
+              <p className="text-gray-600">"The tax optimization strategies alone saved me thousands. This guide pays for itself many times over."</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center">
+                  <Users className="w-6 h-6 text-gold" />
+                </div>
+                <div className="ml-4">
+                  <h4 className="font-bold text-navy">David R.</h4>
+                  <p className="text-sm text-gray-500">Healthcare Professional</p>
+                </div>
+              </div>
+              <p className="text-gray-600">"Finally, a retirement guide that's both comprehensive and easy to understand. I feel much more confident about my financial future."</p>
             </div>
           </div>
         </div>
@@ -173,11 +267,32 @@ const Index = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Don't Wait Another Day to Start Your Journey to <span className="text-gold">Early Retirement</span>
           </h2>
-          <p className="text-xl mb-12 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto">
             Join thousands of others who have already discovered the blueprint to achieving financial independence in record time.
           </p>
-          <div className="max-w-md mx-auto">
-            <LeadForm />
+          <div className="bg-white/5 backdrop-blur-sm p-8 rounded-lg max-w-2xl mx-auto">
+            <h3 className="text-2xl font-bold mb-6">Get Your Free Early Retirement Guide Today</h3>
+            <ul className="text-left space-y-4 mb-8">
+              <li className="flex items-center gap-3">
+                <Check className="w-5 h-5 text-gold" />
+                <span>Step-by-step retirement calculation formula</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check className="w-5 h-5 text-gold" />
+                <span>Proven investment strategies for accelerated wealth building</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check className="w-5 h-5 text-gold" />
+                <span>Tax optimization techniques to keep more of your money</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check className="w-5 h-5 text-gold" />
+                <span>Risk management framework for lasting wealth</span>
+              </li>
+            </ul>
+            <div className="max-w-md mx-auto">
+              <LeadForm />
+            </div>
           </div>
         </div>
       </section>
