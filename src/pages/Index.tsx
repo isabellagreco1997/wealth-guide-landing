@@ -13,8 +13,8 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center pt-32 sm:pt-28 md:pt-24 bg-white px-6 md:px-8 lg:px-12 overflow-x-hidden pb-24 md:pb-32">
         <div className="container mx-auto max-w-7xl">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
-            <div className="space-y-8 md:space-y-8 text-center md:text-left">
-              <h1 className="font-playfair text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
+            <div className="space-y-8 md:space-y-8 text-left">
+              <h1 className="font-playfair text-5xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
                 How Much <span className="text-[#F97316]">Money</span> Do I Need to Retire?
               </h1>
 
