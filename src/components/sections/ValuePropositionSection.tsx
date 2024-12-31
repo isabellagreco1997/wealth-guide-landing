@@ -36,7 +36,7 @@ export const ValuePropositionSection = () => (
               <Shield className="w-6 h-6 text-gold" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-navy mb-2">Tax Optimization Secrets</h3>
+              <h3 className="text-xl font-bold text-navy mb-2">Tax Optimisation Secrets</h3>
               <p className="text-gray-600">Learn advanced tax strategies used by early retirees to legally minimize their tax burden and keep more of their hard-earned money working for them.</p>
               <p className="mt-2 text-sm text-gold font-semibold">Value: £897 - Included Free</p>
             </div>
