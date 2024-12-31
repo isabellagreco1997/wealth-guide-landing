@@ -58,7 +58,7 @@ export const ValuePropositionSection = () => (
         <p className="text-2xl font-bold text-navy">Total Value: <span className="text-gold">£180</span></p>
         <p className="text-xl text-gray-600 mt-2">Yours Free Today</p>
         <button 
-          className="mt-6 bg-[#F97316] text-white px-8 py-3 rounded-lg hover:bg-[#F97316]/90 transition-all duration-200 font-semibold transform hover:scale-105"
+          className="btn-primary mt-6"
           onClick={() => {
             const formElement = document.querySelector('.lead-form');
             if (formElement) {
