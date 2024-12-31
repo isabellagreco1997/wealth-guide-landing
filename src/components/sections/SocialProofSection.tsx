@@ -1,5 +1,4 @@
 import React from 'react';
-import { Users } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export const SocialProofSection = () => (
@@ -20,8 +19,8 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Manchester</p>
             </div>
           </div>
-          <p className="text-gray-600">"This guide completely changed my perspective on retirement planning. I've already saved an additional £50,000 in just 6 months using these strategies. I'm now on track to retire 15 years earlier than I originally planned!"</p>
-          <p className="mt-4 text-sm text-gold font-semibold">Retired 15 years early</p>
+          <p className="text-gray-600">"The retirement planning guide helped me understand my finances better. The strategies are practical and have already helped me improve my monthly savings. I feel more confident about my retirement plans now."</p>
+          <p className="mt-4 text-sm text-gold font-semibold">Better financial understanding</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
           <div className="flex items-center mb-4">
@@ -34,8 +33,8 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Birmingham</p>
             </div>
           </div>
-          <p className="text-gray-600">"The tax optimisation strategies alone saved me over £15,000 in the first year. This guide pays for itself many times over. I never knew retirement planning could be this straightforward and effective."</p>
-          <p className="mt-4 text-sm text-gold font-semibold">Saved £15,000+ in taxes</p>
+          <p className="text-gray-600">"The tax optimisation section was particularly helpful. I learned several legitimate ways to be more tax-efficient with my investments. The guide explains everything in simple terms."</p>
+          <p className="mt-4 text-sm text-gold font-semibold">Improved tax knowledge</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
           <div className="flex items-center mb-4">
@@ -48,8 +47,8 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Liverpool</p>
             </div>
           </div>
-          <p className="text-gray-600">"Finally, a retirement guide that's both comprehensive and easy to understand. I've doubled my investment returns and cut my projected retirement age from 65 to 52. I feel much more confident about my financial future."</p>
-          <p className="mt-4 text-sm text-gold font-semibold">Retirement age reduced by 13 years</p>
+          <p className="text-gray-600">"As someone new to retirement planning, I found this guide very accessible. It helped me create a clear plan for my future and understand the different investment options available."</p>
+          <p className="mt-4 text-sm text-gold font-semibold">Clear retirement strategy</p>
         </div>
       </div>
     </div>
