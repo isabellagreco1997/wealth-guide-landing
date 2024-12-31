@@ -1,46 +1,11 @@
-import React, { useState } from 'react';
-import { toast } from 'sonner';
+import React from 'react';
 import { FormSpeechBubble } from './FormSpeechBubble';
 import { LeadFormInputs } from './LeadFormInputs';
-import { LeadFormSubmit } from './forms/LeadFormSubmit';
-import { createLead } from '@/lib/api/leads';
-import type { NewLead } from '@/lib/types/supabase';
+import { LeadFormSubmit } from '../components/forms/LeadFormSubmit';
+import { useLeadForm } from '@/hooks/use-lead-form';
 
 export const LeadForm = () => {
-  const [formData, setFormData] = useState<NewLead>({
-    name: '',
-    email: '',
-    mobile: '',
-    consent: false
-  });
-
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!formData.consent) {
-      toast.error("Please accept the terms to continue");
-      return;
-    }
-
-    setIsSubmitting(true);
-
-    try {
-      await createLead(formData);
-      toast.success("Thank you for your interest! Check your email for the guide.");
-      setFormData({ name: '', email: '', mobile: '', consent: false });
-    } catch (error: any) {
-      console.error('Error submitting form:', error);
-      if (error.code === '23505') {
-        toast.error("You've already signed up with this email address!");
-      } else {
-        toast.error("Something went wrong. Please try again later.");
-      }
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+  const { formData, setFormData, isSubmitting, handleSubmit } = useLeadForm();
 
   return (
     <div className="w-full flex flex-col items-center">
