@@ -11,17 +11,17 @@ export const FormSpeechBubble = () => {
       
       {/* Hand-drawn arrow SVG */}
       <svg
-        width="80"
-        height="60"
+        width="120"
+        height="90"
         viewBox="0 0 80 60"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute -bottom-8 left-[45px] opacity-70"
+        className="absolute -bottom-12 left-[45px] opacity-90 drop-shadow-lg"
       >
         <path
           d="M2 2C15 15 40 25 65 28C40 31 15 41 2 58"
           stroke="#F97316"
-          strokeWidth="3"
+          strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeDasharray="5 5"
@@ -30,7 +30,7 @@ export const FormSpeechBubble = () => {
         <path
           d="M65 20L75 28L65 36"
           stroke="#F97316"
-          strokeWidth="3"
+          strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
