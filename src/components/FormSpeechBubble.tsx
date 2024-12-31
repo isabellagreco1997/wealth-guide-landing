@@ -2,24 +2,23 @@ import React from 'react';
 
 export const FormSpeechBubble = () => {
   return (
-    <div className="relative">
-      <div className="relative bg-[#FFF4ED] p-4 rounded-[20px] mb-6 text-center w-full max-w-sm shadow-lg transform hover:scale-105 transition-transform duration-200 before:content-[''] before:absolute before:bottom-0 before:left-[48px] before:w-3 before:h-3 before:bg-[#FFF4ED] before:transform before:translate-y-1/2 before:rotate-45">
-        <p className="text-sm sm:text-base md:text-lg font-bold text-[#F97316]">
-          Enter your Name, Email Address, and Mobile, and we'll send you your <strong className="text-[#F97316]">free guide</strong>.
+    <div className="relative mb-16">
+      <div className="bg-[#FFF4ED] p-4 rounded-lg shadow-md mb-4">
+        <p className="text-sm md:text-base lg:text-lg font-bold text-[#F97316] text-center">
+          Get Your FREE Guide To Early Retirement Now!
         </p>
       </div>
-      
       {/* Hand-drawn arrow SVG */}
       <svg
         width="120"
         height="90"
-        viewBox="0 0 80 60"
+        viewBox="0 0 120 90"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="absolute -bottom-12 left-[45px] opacity-90 drop-shadow-lg"
       >
         <path
-          d="M2 2C15 15 40 25 65 28C40 31 15 41 2 58"
+          d="M2 2C22.5 22.5 60 37.5 97.5 42C60 46.5 22.5 61.5 2 87"
           stroke="#F97316"
           strokeWidth="4"
           strokeLinecap="round"
@@ -28,7 +27,7 @@ export const FormSpeechBubble = () => {
           className="animate-pulse"
         />
         <path
-          d="M65 20L75 28L65 36"
+          d="M97.5 30L112.5 42L97.5 54"
           stroke="#F97316"
           strokeWidth="4"
           strokeLinecap="round"
