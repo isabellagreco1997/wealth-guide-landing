@@ -29,12 +29,21 @@ export function useLeadForm() {
       return;
     }
 
+    if (isSubmitting) {
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
-      await createLead(formData);
+      await createLead({...formData}); // Create a new object to avoid reference issues
       toast.success("Thank you for your interest! Your guide is downloading now.");
-      downloadFile(GUIDE_PDF_URL, GUIDE_FILENAME);
+      
+      // Small delay before starting download
+      setTimeout(() => {
+        downloadFile(GUIDE_PDF_URL, GUIDE_FILENAME);
+      }, 500);
+      
       resetForm();
     } catch (error) {
       console.error('Error submitting form:', error);
