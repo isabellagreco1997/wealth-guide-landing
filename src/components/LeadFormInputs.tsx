@@ -13,7 +13,7 @@ interface LeadFormInputsProps {
 
 export const LeadFormInputs = ({ formData, setFormData }: LeadFormInputsProps) => (
   <div className="space-y-4 md:space-y-6">
-    <div>
+    <div className="text-center md:text-left">
       <label htmlFor="name" className="block text-sm font-medium text-navy mb-1">
         Full Name
       </label>
@@ -27,7 +27,7 @@ export const LeadFormInputs = ({ formData, setFormData }: LeadFormInputsProps) =
       />
     </div>
     
-    <div>
+    <div className="text-center md:text-left">
       <label htmlFor="email" className="block text-sm font-medium text-navy mb-1">
         Email Address
       </label>
@@ -41,7 +41,7 @@ export const LeadFormInputs = ({ formData, setFormData }: LeadFormInputsProps) =
       />
     </div>
     
-    <div>
+    <div className="text-center md:text-left">
       <label htmlFor="mobile" className="block text-sm font-medium text-navy mb-1">
         Mobile Number
       </label>
@@ -66,7 +66,7 @@ export const LeadFormInputs = ({ formData, setFormData }: LeadFormInputsProps) =
       />
       <label 
         htmlFor="consent" 
-        className="text-xs md:text-sm text-gray-600 leading-tight"
+        className="text-xs md:text-sm text-gray-600 leading-tight text-center md:text-left"
       >
         By ticking this box, I understand I will receive this free guide and ongoing insights from Retirement Scientist by email or phone
       </label>
