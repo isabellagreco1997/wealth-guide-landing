@@ -1,0 +1,4 @@
+[build.environment]
+SECRETS_SCAN_OMIT_PATHS = "/path/to/omit,/another/path"
+SECRETS_SCAN_OMIT_KEYS = "API_KEY,ANOTHER_SECRET_KEY"
+SECRETS_SCAN_ENABLED = "false"  # Use cautiously
