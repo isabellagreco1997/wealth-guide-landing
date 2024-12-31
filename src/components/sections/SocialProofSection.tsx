@@ -18,7 +18,7 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Software Engineer</p>
             </div>
           </div>
-          <p className="text-gray-600">"This guide completely changed my perspective on retirement planning. I've already saved an additional $50,000 in just 6 months using these strategies. I'm now on track to retire 15 years earlier than I originally planned!"</p>
+          <p className="text-gray-600">"This guide completely changed my perspective on retirement planning. I've already saved an additional £50,000 in just 6 months using these strategies. I'm now on track to retire 15 years earlier than I originally planned!"</p>
           <p className="mt-4 text-sm text-gold font-semibold">Retired 15 years early</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
@@ -31,8 +31,8 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Business Owner</p>
             </div>
           </div>
-          <p className="text-gray-600">"The tax optimization strategies alone saved me over $15,000 in the first year. This guide pays for itself many times over. I never knew retirement planning could be this straightforward and effective."</p>
-          <p className="mt-4 text-sm text-gold font-semibold">Saved $15,000+ in taxes</p>
+          <p className="text-gray-600">"The tax optimization strategies alone saved me over £15,000 in the first year. This guide pays for itself many times over. I never knew retirement planning could be this straightforward and effective."</p>
+          <p className="mt-4 text-sm text-gold font-semibold">Saved £15,000+ in taxes</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
           <div className="flex items-center mb-4">

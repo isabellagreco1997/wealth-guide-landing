@@ -36,7 +36,7 @@ export const FinalCTASection = () => (
           </div>
         </div>
         <div className="text-center mb-8">
-          <p className="text-2xl font-bold">Total Value: <span className="text-gold">$4,188</span></p>
+          <p className="text-2xl font-bold">Total Value: <span className="text-gold">£4,188</span></p>
           <p className="text-xl mt-2">Yours Free Today</p>
           <p className="text-sm text-gold mt-4">Limited Time Offer - Get It Now Before It's Gone!</p>
         </div>
