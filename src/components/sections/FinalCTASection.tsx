@@ -27,7 +27,7 @@ export const FinalCTASection = () => (
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-gold" />
-              <span>Tax optimization techniques</span>
+              <span>Tax optimisation techniques</span>
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-gold" />
@@ -36,7 +36,7 @@ export const FinalCTASection = () => (
           </div>
         </div>
         <div className="text-center mb-8">
-          <p className="text-2xl font-bold">Total Value: <span className="text-gold">£4,188</span></p>
+          <p className="text-2xl font-bold">Total Value: <span className="text-gold">£180</span></p>
           <p className="text-xl mt-2">Yours Free Today</p>
           <p className="text-sm text-gold mt-4">Limited Time Offer - Get It Now Before It's Gone!</p>
         </div>
