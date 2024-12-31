@@ -7,9 +7,10 @@ export const HeroSection = () => (
     <div className="container mx-auto max-w-7xl">
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
         <div className="space-y-8 md:space-y-8 text-left">
-          <h1 className="text-5xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
-            How Anyone Can <span className="text-[#F97316]">Retire Early</span> In 10 Years (Or Less!)
-          </h1>
+        <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words text-center sm:text-left">
+  How Anyone Can <span className="text-[#F97316]">Retire Early</span> In 10 Years (Or Less!)
+</h1>
+
 
           <div className="flex items-center gap-6 md:gap-8">
             <img
