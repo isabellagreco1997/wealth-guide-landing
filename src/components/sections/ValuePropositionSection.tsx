@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, TrendingUp, Shield, Lightbulb } from 'lucide-react';
+import { Target, Brain, BarChart3, Lightbulb } from 'lucide-react';
 import { LeadForm } from '../LeadForm';
 
 export const ValuePropositionSection = () => (
@@ -15,18 +15,18 @@ export const ValuePropositionSection = () => (
               <Target className="w-6 h-6 text-gold" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-navy mb-2">Calculate Your Magic Number</h3>
-              <p className="text-gray-600">Learn the exact formula to determine how much you need to retire comfortably, tailored to your lifestyle and goals. Our step-by-step process makes it simple.</p>
+              <h3 className="text-xl font-bold text-navy mb-2">Master the Fundamentals</h3>
+              <p className="text-gray-600">Discover the core principles of early retirement planning that most people overlook. Learn how to build a solid foundation for your financial future.</p>
               <p className="mt-2 text-sm text-gold font-semibold"><span className="line-through">£49</span> - Now £0</p>
             </div>
           </div>
           <div className="flex items-start gap-4 bg-goldLight p-6 rounded-lg transform hover:scale-105 transition-all duration-300">
             <div className="flex-shrink-0 w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center">
-              <TrendingUp className="w-6 h-6 text-gold" />
+              <Brain className="w-6 h-6 text-gold" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-navy mb-2">Investment Strategy Blueprint</h3>
-              <p className="text-gray-600">Discover the proven investment approach that can accelerate your path to financial independence, including asset allocation and risk management strategies.</p>
+              <h3 className="text-xl font-bold text-navy mb-2">Mindset Transformation</h3>
+              <p className="text-gray-600">Learn how to develop the mindset of successful early retirees. Break free from limiting beliefs and develop habits that accelerate your path to financial freedom.</p>
               <p className="mt-2 text-sm text-gold font-semibold"><span className="line-through">£47</span> - Now £0</p>
             </div>
           </div>
@@ -34,11 +34,11 @@ export const ValuePropositionSection = () => (
         <div className="space-y-6">
           <div className="flex items-start gap-4 bg-goldLight p-6 rounded-lg transform hover:scale-105 transition-all duration-300">
             <div className="flex-shrink-0 w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center">
-              <Shield className="w-6 h-6 text-gold" />
+              <BarChart3 className="w-6 h-6 text-gold" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-navy mb-2">Tax Optimisation Secrets</h3>
-              <p className="text-gray-600">Learn advanced tax strategies used by early retirees to legally minimize their tax burden and keep more of their hard-earned money working for them.</p>
+              <h3 className="text-xl font-bold text-navy mb-2">Cashflow Modeling</h3>
+              <p className="text-gray-600">Master advanced cashflow modeling techniques to forecast your financial future with confidence. Learn how to stress test your retirement plan against various scenarios.</p>
               <p className="mt-2 text-sm text-gold font-semibold"><span className="line-through">£45</span> - Now £0</p>
             </div>
           </div>
@@ -47,8 +47,8 @@ export const ValuePropositionSection = () => (
               <Lightbulb className="w-6 h-6 text-gold" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-navy mb-2">Risk Management Framework</h3>
-              <p className="text-gray-600">Master the art of protecting your wealth with our comprehensive approach to managing investment and lifestyle risks throughout retirement.</p>
+              <h3 className="text-xl font-bold text-navy mb-2">Lifestyle Planning</h3>
+              <p className="text-gray-600">Design your ideal retirement lifestyle and learn how to align your financial strategy with your life goals. Create a sustainable plan that brings fulfillment.</p>
               <p className="mt-2 text-sm text-gold font-semibold"><span className="line-through">£39</span> - Now £0</p>
             </div>
           </div>

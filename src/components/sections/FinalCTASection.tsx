@@ -17,21 +17,21 @@ export const FinalCTASection = () => (
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-gold" />
-              <span>Step-by-step retirement calculation formula</span>
+              <span>Master the fundamentals</span>
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-gold" />
-              <span>Proven investment strategies</span>
+              <span>Transform your mindset</span>
             </div>
           </div>
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-gold" />
-              <span>Tax optimisation techniques</span>
+              <span>Advanced cashflow modeling</span>
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-gold" />
-              <span>Risk management framework</span>
+              <span>Lifestyle planning blueprint</span>
             </div>
           </div>
         </div>
