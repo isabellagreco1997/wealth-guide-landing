@@ -8,41 +8,32 @@ export const FormSpeechBubble = () => {
           Get Your FREE Guide To Early Retirement Now!
         </p>
       </div>
-      {/* New zigzag arrow design */}
+      {/* Animated curved arrow */}
       <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full z-10">
-        <div className="relative h-16 w-12">
-          {/* Zigzag line */}
+        <div className="relative h-16 w-12 animate-bounce">
           <svg
-            width="12"
-            height="48"
-            viewBox="0 0 12 48"
+            width="24"
+            height="64"
+            viewBox="0 0 24 64"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="absolute left-1/2 transform -translate-x-1/2"
           >
+            {/* Curved path */}
             <path
-              d="M6 0L2 12L10 24L2 36L6 48"
+              d="M12 0C12 20 24 24 24 32C24 40 12 44 12 64"
               stroke="#F97316"
               strokeWidth="2"
               strokeLinecap="round"
-              strokeLinejoin="round"
+              className="animate-dash"
+            />
+            {/* Arrow head */}
+            <path
+              d="M12 64L6 56H18L12 64Z"
+              fill="#F97316"
+              className="animate-pulse"
             />
           </svg>
-          {/* Arrow head */}
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10 20L0 10L20 10L10 20Z"
-                fill="#F97316"
-              />
-            </svg>
-          </div>
         </div>
       </div>
     </div>
