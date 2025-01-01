@@ -19,8 +19,8 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Manchester</p>
             </div>
           </div>
-          <p className="text-gray-600">"The retirement planning guide helped me understand my finances better. The strategies are practical and have already helped me improve my monthly savings. I feel more confident about my retirement plans now."</p>
-          <p className="mt-4 text-sm text-gold font-semibold">Better financial understanding</p>
+          <p className="text-gray-600">"The mindset transformation approach completely changed how I think about retirement. Understanding the fundamentals of lifestyle planning helped me align my goals with my values. It's not just about money - it's about designing the life I want."</p>
+          <p className="mt-4 text-sm text-gold font-semibold">Mindset transformation</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
           <div className="flex items-center mb-4">
@@ -33,8 +33,8 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Birmingham</p>
             </div>
           </div>
-          <p className="text-gray-600">"The tax optimisation section was particularly helpful. I learned several legitimate ways to be more tax-efficient with my investments. The guide explains everything in simple terms."</p>
-          <p className="mt-4 text-sm text-gold font-semibold">Improved tax knowledge</p>
+          <p className="text-gray-600">"The cashflow modeling tools were eye-opening. Being able to visualize different scenarios and stress test my retirement plans gave me confidence. The lifestyle planning workshops helped me define what truly matters to me."</p>
+          <p className="mt-4 text-sm text-gold font-semibold">Financial clarity</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
           <div className="flex items-center mb-4">
@@ -47,8 +47,8 @@ export const SocialProofSection = () => (
               <p className="text-sm text-gray-500">Liverpool</p>
             </div>
           </div>
-          <p className="text-gray-600">"As someone new to retirement planning, I found this guide very accessible. It helped me create a clear plan for my future and understand the different investment options available."</p>
-          <p className="mt-4 text-sm text-gold font-semibold">Clear retirement strategy</p>
+          <p className="text-gray-600">"The perspective shift on retirement planning was invaluable. Learning about lifestyle design and understanding the fundamentals of sustainable retirement helped me create a more balanced and achievable plan."</p>
+          <p className="mt-4 text-sm text-gold font-semibold">Perspective transformation</p>
         </div>
       </div>
     </div>
