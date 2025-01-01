@@ -1,8 +1,14 @@
-import { supabase } from '../supabase';
+import { supabase, isSupabaseConfigured } from '../supabase';
 import type { NewLead } from '../types/supabase';
 import { ApiError } from './errors';
 
 export async function createLead(lead: NewLead) {
+  // If Supabase is not configured, log to console instead
+  if (!isSupabaseConfigured()) {
+    console.log('Supabase not configured. Lead data:', lead);
+    return true;
+  }
+
   try {
     const { error } = await supabase
       .from('leads')
