@@ -74,8 +74,7 @@ export const WhyEarlyRetirementSection = () => (
           </ul>
         </div>
       </div>
-    </div>
-    
+      
       <div className="text-center mt-12">
         <LeadFormDialog>
           <Button 
