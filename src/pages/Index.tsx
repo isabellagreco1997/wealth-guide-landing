@@ -8,6 +8,9 @@ import { GuideBenefitsSection } from '@/components/sections/GuideBenefitsSection
 import { ValuePropositionSection } from '@/components/sections/ValuePropositionSection';
 import { SocialProofSection } from '@/components/sections/SocialProofSection';
 import { FinalCTASection } from '@/components/sections/FinalCTASection';
+import { CommonMistakesSection } from '@/components/sections/CommonMistakesSection';
+import { CalculatorSection } from '@/components/sections/CalculatorSection';
+import { FAQSection } from '@/components/sections/FAQSection';
 
 const Index = () => {
   return (
@@ -16,9 +19,12 @@ const Index = () => {
       <HeroSection />
       <WhyEarlyRetirementSection />
       <GuideApproachSection />
+      <CommonMistakesSection />
+      <CalculatorSection />
       <GuideBenefitsSection />
       <ValuePropositionSection />
       <SocialProofSection />
+      <FAQSection />
       <FinalCTASection />
       <Footer />
     </div>
