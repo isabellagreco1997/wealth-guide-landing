@@ -1,6 +1,7 @@
 import React from 'react';
 import { Clock, DollarSign, BookOpen } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { LeadFormDialog } from '@/components/LeadFormDialog';
 
 export const WhyEarlyRetirementSection = () => (
   <section className="py-16 md:py-24 bg-goldLight">
