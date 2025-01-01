@@ -8,30 +8,21 @@ export const FormSpeechBubble = () => {
           Get Your FREE Guide To Early Retirement Now!
         </p>
       </div>
-      {/* Animated curved arrow */}
+      {/* Thick arrow */}
       <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full z-10">
-        <div className="relative h-16 w-12 animate-bounce">
+        <div className="relative h-16 w-12">
           <svg
-            width="24"
+            width="32"
             height="64"
-            viewBox="0 0 24 64"
+            viewBox="0 0 32 64"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="absolute left-1/2 transform -translate-x-1/2"
           >
-            {/* Curved path */}
+            {/* Thick arrow body */}
             <path
-              d="M12 0C12 20 24 24 24 32C24 40 12 44 12 64"
-              stroke="#F97316"
-              strokeWidth="2"
-              strokeLinecap="round"
-              className="animate-dash"
-            />
-            {/* Arrow head */}
-            <path
-              d="M12 64L6 56H18L12 64Z"
+              d="M12 0L12 44L4 44L16 64L28 44L20 44L20 0L12 0Z"
               fill="#F97316"
-              className="animate-pulse"
             />
           </svg>
         </div>
