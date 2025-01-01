@@ -3,6 +3,7 @@ import { toast } from 'sonner';
 import { createLead } from '@/lib/api/leads';
 import { getErrorMessage } from '@/lib/api/errors';
 import { downloadFile } from '@/lib/utils/download';
+import { useNavigate } from 'react-router-dom';
 import type { NewLead } from '@/lib/types/supabase';
 
 const initialState: NewLead = {
@@ -18,6 +19,7 @@ const GUIDE_FILENAME = 'early-retirement-guide.pdf';
 export function useLeadForm() {
   const [formData, setFormData] = useState<NewLead>(initialState);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const navigate = useNavigate();
 
   const resetForm = () => setFormData(initialState);
 
@@ -36,15 +38,15 @@ export function useLeadForm() {
     setIsSubmitting(true);
 
     try {
-      await createLead({...formData}); // Create a new object to avoid reference issues
-      toast.success("Thank you for your interest! Your guide is downloading now.");
+      await createLead({...formData});
       
-      // Small delay before starting download
-      setTimeout(() => {
-        downloadFile(GUIDE_PDF_URL, GUIDE_FILENAME);
-      }, 500);
+      // Start the download
+      downloadFile(GUIDE_PDF_URL, GUIDE_FILENAME);
       
+      // Reset form and redirect to success page
       resetForm();
+      navigate('/success');
+      
     } catch (error) {
       console.error('Error submitting form:', error);
       toast.error(getErrorMessage(error));
