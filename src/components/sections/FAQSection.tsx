@@ -64,6 +64,48 @@ export const FAQSection = () => (
               Absolutely! Our guide emphasises balanced living. We'll show you how to plan for and enjoy leisure activities while staying on track with your early retirement goals. It's about making smart choices, not eliminating enjoyment.
             </AccordionContent>
           </AccordionItem>
+
+          <AccordionItem value="item-9">
+            <AccordionTrigger>What investment strategies does the guide recommend?</AccordionTrigger>
+            <AccordionContent>
+              Our guide covers a range of investment strategies suitable for different risk tolerances and goals. We discuss index funds, real estate, dividend stocks, and other investment vehicles, helping you create a diversified portfolio that aligns with your early retirement timeline.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-10">
+            <AccordionTrigger>How do I handle market downturns in early retirement?</AccordionTrigger>
+            <AccordionContent>
+              The guide includes specific strategies for protecting your wealth during market volatility, including building cash buffers, maintaining a flexible withdrawal rate, and structuring your portfolio to weather different market conditions. We'll show you how to create a robust plan that can withstand market uncertainties.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-11">
+            <AccordionTrigger>What about inflation's impact on early retirement plans?</AccordionTrigger>
+            <AccordionContent>
+              We address inflation head-on in our guide, showing you how to factor it into your calculations and protect your purchasing power. This includes strategies for inflation-adjusted withdrawals and investments that historically perform well during inflationary periods.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-12">
+            <AccordionTrigger>Can I still support my children's education while pursuing early retirement?</AccordionTrigger>
+            <AccordionContent>
+              Yes! Our guide shows you how to balance multiple financial goals, including education savings. We'll help you understand various education funding options and how to integrate them into your early retirement strategy without compromising either objective.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-13">
+            <AccordionTrigger>What if my partner isn't on board with early retirement?</AccordionTrigger>
+            <AccordionContent>
+              The guide includes strategies for couples with different financial goals, including communication frameworks and compromise solutions. We'll show you how to align your financial plans while respecting both partners' perspectives and concerns.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-14">
+            <AccordionTrigger>How do I maintain purpose and fulfillment in early retirement?</AccordionTrigger>
+            <AccordionContent>
+              Early retirement isn't just about finances - it's about living a fulfilling life. Our guide includes sections on finding purpose, pursuing passions, and maintaining social connections. We'll help you plan for the lifestyle aspects of early retirement, not just the financial ones.
+            </AccordionContent>
+          </AccordionItem>
         </Accordion>
       </div>
       <div className="text-center mt-12">
