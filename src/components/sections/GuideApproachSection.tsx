@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Target, Brain, BarChart3 } from 'lucide-react';
+import { Button } from "@/components/ui/button";
 
 export const GuideApproachSection = () => (
   <section className="py-16 md:py-24 bg-white">
@@ -40,6 +41,20 @@ export const GuideApproachSection = () => (
           <p className="text-gray-600">Access sophisticated cashflow modeling and lifestyle planning tools simplified for everyone.</p>
         </div>
       </div>
+    </div>
+    
+    <div className="text-center mt-12">
+      <Button 
+        className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
+        onClick={() => {
+          const formElement = document.querySelector('.lead-form');
+          if (formElement) {
+            formElement.scrollIntoView({ behavior: 'smooth' });
+          }
+        }}
+      >
+        Start Your Early Retirement Journey
+      </Button>
     </div>
   </section>
 );

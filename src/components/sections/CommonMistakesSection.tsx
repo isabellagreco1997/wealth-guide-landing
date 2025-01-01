@@ -1,5 +1,6 @@
 import React from 'react';
 import { XCircle } from 'lucide-react';
+import { Button } from "@/components/ui/button";
 
 export const CommonMistakesSection = () => (
   <section className="py-16 md:py-24 bg-goldLight">
@@ -32,6 +33,19 @@ export const CommonMistakesSection = () => (
           <p className="text-gray-600">The silent wealth destroyer that most retirement calculators overlook. Learn how to inflation-proof your retirement plan.</p>
         </div>
       </div>
+    </div>
+    <div className="text-center mt-12">
+      <Button 
+        className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
+        onClick={() => {
+          const formElement = document.querySelector('.lead-form');
+          if (formElement) {
+            formElement.scrollIntoView({ behavior: 'smooth' });
+          }
+        }}
+      >
+        Avoid These Mistakes - Get Your Free Guide
+      </Button>
     </div>
   </section>
 );
