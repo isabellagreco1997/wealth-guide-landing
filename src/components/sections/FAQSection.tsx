@@ -71,7 +71,7 @@ export const FAQSection = () => (
           <Button 
             className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
           >
-            Get All Your Questions Answered
+            Get Answers
           </Button>
         </LeadFormDialog>
       </div>

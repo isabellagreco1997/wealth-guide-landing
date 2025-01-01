@@ -82,7 +82,7 @@ export const RetirementMathSection = () => (
         <Button 
           className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
         >
-          Download Your Free Guide Now
+          Download Now
         </Button>
       </LeadFormDialog>
     </div>

@@ -75,14 +75,16 @@ export const WhyEarlyRetirementSection = () => (
         </div>
       </div>
     </div>
-    <div className="text-center mt-12">
-      <LeadFormDialog>
-        <Button 
-          className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
-        >
-          Get Your Free Early Retirement Guide
-        </Button>
-      </LeadFormDialog>
+    
+      <div className="text-center mt-12">
+        <LeadFormDialog>
+          <Button 
+            className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
+          >
+            Get Free Guide
+          </Button>
+        </LeadFormDialog>
+      </div>
     </div>
   </section>
 );

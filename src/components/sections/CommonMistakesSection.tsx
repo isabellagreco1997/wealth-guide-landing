@@ -40,7 +40,7 @@ export const CommonMistakesSection = () => (
         <Button 
           className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
         >
-          Avoid These Mistakes - Get Your Free Guide
+          Avoid Mistakes
         </Button>
       </LeadFormDialog>
     </div>

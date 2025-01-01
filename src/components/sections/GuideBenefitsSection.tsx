@@ -60,7 +60,7 @@ export const GuideBenefitsSection = () => (
           <Button 
             className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
           >
-            Get Your Free Guide Today
+            Get Guide
           </Button>
         </LeadFormDialog>
       </div>

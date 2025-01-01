@@ -49,7 +49,7 @@ export const GuideApproachSection = () => (
         <Button 
           className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
         >
-          Start Your Early Retirement Journey
+          Start Now
         </Button>
       </LeadFormDialog>
     </div>
