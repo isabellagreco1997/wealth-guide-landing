@@ -75,17 +75,13 @@ export const WhyEarlyRetirementSection = () => (
       </div>
     </div>
     <div className="text-center mt-12">
-      <Button 
-        className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
-        onClick={() => {
-          const formElement = document.querySelector('.lead-form');
-          if (formElement) {
-            formElement.scrollIntoView({ behavior: 'smooth' });
-          }
-        }}
-      >
-        Get Your Free Early Retirement Guide
-      </Button>
+      <LeadFormDialog>
+        <Button 
+          className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
+        >
+          Get Your Free Early Retirement Guide
+        </Button>
+      </LeadFormDialog>
     </div>
   </section>
 );

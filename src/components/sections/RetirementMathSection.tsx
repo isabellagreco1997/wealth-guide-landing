@@ -1,6 +1,7 @@
 import React from 'react';
 import { Calculator, Clock, Brain, Target } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { LeadFormDialog } from '@/components/LeadFormDialog';
 
 export const RetirementMathSection = () => (
   <section className="py-16 md:py-24 bg-white">
@@ -77,17 +78,13 @@ export const RetirementMathSection = () => (
     </div>
     
     <div className="text-center mt-12">
-      <Button 
-        className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
-        onClick={() => {
-          const formElement = document.querySelector('.lead-form');
-          if (formElement) {
-            formElement.scrollIntoView({ behavior: 'smooth' });
-          }
-        }}
-      >
-        Download Your Free Guide Now
-      </Button>
+      <LeadFormDialog>
+        <Button 
+          className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
+        >
+          Download Your Free Guide Now
+        </Button>
+      </LeadFormDialog>
     </div>
   </section>
 );

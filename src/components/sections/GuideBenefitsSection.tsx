@@ -1,6 +1,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { LeadFormDialog } from '@/components/LeadFormDialog';
 
 export const GuideBenefitsSection = () => (
   <section className="py-16 md:py-24 bg-navy text-white">
@@ -53,20 +54,16 @@ export const GuideBenefitsSection = () => (
           </div>
         </div>
       </div>
-    </div>
     
-    <div className="text-center mt-12">
-      <Button 
-        className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
-        onClick={() => {
-          const formElement = document.querySelector('.lead-form');
-          if (formElement) {
-            formElement.scrollIntoView({ behavior: 'smooth' });
-          }
-        }}
-      >
-        Get Your Free Guide Today
-      </Button>
+      <div className="text-center mt-12">
+        <LeadFormDialog>
+          <Button 
+            className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
+          >
+            Get Your Free Guide Today
+          </Button>
+        </LeadFormDialog>
+      </div>
     </div>
   </section>
 );

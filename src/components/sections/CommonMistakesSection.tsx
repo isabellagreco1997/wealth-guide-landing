@@ -1,6 +1,7 @@
 import React from 'react';
 import { XCircle } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { LeadFormDialog } from '@/components/LeadFormDialog';
 
 export const CommonMistakesSection = () => (
   <section className="py-16 md:py-24 bg-goldLight">
@@ -35,17 +36,13 @@ export const CommonMistakesSection = () => (
       </div>
     </div>
     <div className="text-center mt-12">
-      <Button 
-        className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
-        onClick={() => {
-          const formElement = document.querySelector('.lead-form');
-          if (formElement) {
-            formElement.scrollIntoView({ behavior: 'smooth' });
-          }
-        }}
-      >
-        Avoid These Mistakes - Get Your Free Guide
-      </Button>
+      <LeadFormDialog>
+        <Button 
+          className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg"
+        >
+          Avoid These Mistakes - Get Your Free Guide
+        </Button>
+      </LeadFormDialog>
     </div>
   </section>
 );
