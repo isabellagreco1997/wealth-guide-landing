@@ -11,7 +11,7 @@ export const HeroSection = () => (
             <p className="text-[#F97316] font-semibold tracking-wide uppercase text-sm md:text-base">
               Retire Decades Ahead of Schedule
             </p>
-            <h1 className="text-xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words leading-tight">
+            <h1 className="text-xl sm:text-3xl md:text-3xl lg:text-4xl font-normal text-navy mb-6 md:mb-0 max-w-full break-words leading-tight">
               Free Retirement Roadmap: How to Retire Early in 10 Years or Less. (Without Extreme Frugality or Taking Unnecessary Risks)
             </h1>
           </div>
