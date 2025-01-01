@@ -13,19 +13,19 @@ export const WhyEarlyRetirementSection = () => (
             <Clock className="w-6 h-6 text-gold" />
           </div>
           <h3 className="text-xl font-bold text-navy mb-3">Wrong Timing</h3>
-          <p className="text-gray-600">Most people start planning too late, missing out on the power of compound interest and strategic investments. Starting just 5 years earlier can mean the difference between retiring at 65 vs 55.</p>
+          <p className="text-gray-600">Most people start planning too late, missing out on the power of early lifestyle optimization and mindset transformation. Starting just 5 years earlier can mean the difference between retiring at 65 vs 55.</p>
           <ul className="mt-4 space-y-2 text-gray-600">
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Lost compound interest opportunity</span>
+              <span>Delayed mindset development</span>
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Missed market growth cycles</span>
+              <span>Missed lifestyle optimization</span>
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Reduced investment timeline</span>
+              <span>Limited planning window</span>
             </li>
           </ul>
         </div>
@@ -34,19 +34,19 @@ export const WhyEarlyRetirementSection = () => (
             <DollarSign className="w-6 h-6 text-gold" />
           </div>
           <h3 className="text-xl font-bold text-navy mb-3">Poor Strategy</h3>
-          <p className="text-gray-600">Traditional retirement advice often leads to overspending or living too frugally. Our guide shows you how to find the perfect balance for sustainable wealth building.</p>
+          <p className="text-gray-600">Traditional retirement advice often leads to unbalanced lifestyles. Our guide shows you how to create sustainable cashflow models while maintaining life satisfaction.</p>
           <ul className="mt-4 space-y-2 text-gray-600">
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Inefficient tax strategies</span>
+              <span>Incomplete cashflow modeling</span>
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Suboptimal investment choices</span>
+              <span>Inadequate stress testing</span>
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Inadequate risk management</span>
+              <span>Poor lifestyle planning</span>
             </li>
           </ul>
         </div>
@@ -55,19 +55,19 @@ export const WhyEarlyRetirementSection = () => (
             <BookOpen className="w-6 h-6 text-gold" />
           </div>
           <h3 className="text-xl font-bold text-navy mb-3">Limited Knowledge</h3>
-          <p className="text-gray-600">Without proper guidance, many make costly mistakes. Our comprehensive guide provides the exact blueprint successful early retirees have used.</p>
+          <p className="text-gray-600">Without proper guidance, many struggle with mindset transformation. Our comprehensive guide provides the exact blueprint successful early retirees have used.</p>
           <ul className="mt-4 space-y-2 text-gray-600">
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Outdated retirement concepts</span>
+              <span>Outdated mindset frameworks</span>
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Misunderstood market dynamics</span>
+              <span>Misunderstood fundamentals</span>
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full"></span>
-              <span>Overlooked optimisation opportunities</span>
+              <span>Overlooked lifestyle opportunities</span>
             </li>
           </ul>
         </div>
