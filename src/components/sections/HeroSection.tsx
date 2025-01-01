@@ -7,9 +7,14 @@ export const HeroSection = () => (
     <div className="container mx-auto max-w-7xl">
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
         <div className="space-y-8 md:space-y-8 text-center md:text-left">
-          <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
-            How Anyone Can <span className="text-[#F97316]">Retire Early</span> In 10 Years (Or Less!)
-          </h1>
+          <div className="space-y-4">
+            <p className="text-[#F97316] font-semibold tracking-wide uppercase text-sm md:text-base">
+              Unlock the Secrets to Retiring Decades Ahead of Schedule
+            </p>
+            <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-navy mb-6 md:mb-0 max-w-full break-words">
+              How Anyone Can <span className="text-[#F97316]">Retire Early</span> In 10 Years (Or Less!)
+            </h1>
+          </div>
 
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 justify-center md:justify-start">
             <img
