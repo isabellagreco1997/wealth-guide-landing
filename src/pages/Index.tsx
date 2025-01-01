@@ -3,6 +3,8 @@ import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { WhyEarlyRetirementSection } from '@/components/sections/WhyEarlyRetirementSection';
+import { GuideApproachSection } from '@/components/sections/GuideApproachSection';
+import { GuideBenefitsSection } from '@/components/sections/GuideBenefitsSection';
 import { ValuePropositionSection } from '@/components/sections/ValuePropositionSection';
 import { SocialProofSection } from '@/components/sections/SocialProofSection';
 import { FinalCTASection } from '@/components/sections/FinalCTASection';
@@ -13,6 +15,8 @@ const Index = () => {
       <Navigation />
       <HeroSection />
       <WhyEarlyRetirementSection />
+      <GuideApproachSection />
+      <GuideBenefitsSection />
       <ValuePropositionSection />
       <SocialProofSection />
       <FinalCTASection />
