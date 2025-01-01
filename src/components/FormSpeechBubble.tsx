@@ -10,18 +10,18 @@ export const FormSpeechBubble = () => {
       </div>
       {/* Thick arrow */}
       <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full z-10">
-        <div className="relative h-16 w-12">
+        <div className="relative h-12 w-12">
           <svg
             width="32"
-            height="64"
-            viewBox="0 0 32 64"
+            height="48"
+            viewBox="0 0 32 48"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="absolute left-1/2 transform -translate-x-1/2"
           >
             {/* Thick arrow body */}
             <path
-              d="M12 0L12 44L4 44L16 64L28 44L20 44L20 0L12 0Z"
+              d="M12 0L12 28L4 28L16 48L28 28L20 28L20 0L12 0Z"
               fill="#F97316"
             />
           </svg>
