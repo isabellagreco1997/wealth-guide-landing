@@ -12,7 +12,7 @@ export const HeroSection = () => (
               Retire Decades Ahead of Schedule
             </p>
             <h1 className="text-xl sm:text-3xl md:text-3xl lg:text-4xl font-normal text-navy mb-6 md:mb-0 max-w-full break-words leading-tight">
-              Free Retirement Roadmap: How to <span className="font-bold text-[#F97316]">Retire Early</span> in <span className="font-bold text-[#F97316]">10 Years</span> or <span className="font-bold text-[#F97316]">Less</span>. (Without Extreme Frugality or Taking Unnecessary Risks)
+              <span className="font-bold">Free Retirement Roadmap:</span> How to <span className="font-bold text-[#F97316]">Retire Early</span> in <span className="font-bold text-[#F97316]">10 Years</span> or <span className="font-bold text-[#F97316]">Less</span>. (Without Extreme Frugality or Taking Unnecessary Risks)
             </h1>
           </div>
 
