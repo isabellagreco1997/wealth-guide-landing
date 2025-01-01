@@ -50,26 +50,6 @@ export const GuideBenefitsSection = () => (
               <p className="text-gray-300">Learn how to adapt the framework to your unique situation, goals, and timeline.</p>
             </div>
           </div>
-          
-          <div className="flex items-start gap-4">
-            <div className="flex-shrink-0 w-8 h-8 bg-gold/20 rounded-full flex items-center justify-center mt-1">
-              <Check className="w-5 h-5 text-gold" />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-2">Regular Updates</h3>
-              <p className="text-gray-300">Get lifetime access to guide updates as we continually refine and improve our early retirement strategies.</p>
-            </div>
-          </div>
-          
-          <div className="flex items-start gap-4">
-            <div className="flex-shrink-0 w-8 h-8 bg-gold/20 rounded-full flex items-center justify-center mt-1">
-              <Check className="w-5 h-5 text-gold" />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-2">Expert Support</h3>
-              <p className="text-gray-300">Access to our community of early retirement achievers and ongoing guidance to keep you on track.</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
