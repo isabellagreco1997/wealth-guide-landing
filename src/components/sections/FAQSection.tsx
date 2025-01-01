@@ -38,6 +38,30 @@ export const FAQSection = () => (
               Our guide focuses on practical, actionable strategies rather than theory. It's based on real success stories and provides a step-by-step framework you can implement immediately, without complex financial jargon.
             </AccordionContent>
           </AccordionItem>
+          <AccordionItem value="item-5">
+            <AccordionTrigger>What if I have existing debts?</AccordionTrigger>
+            <AccordionContent>
+              Our guide includes specific strategies for managing and eliminating debt while building wealth. We'll show you how to balance debt repayment with investment growth, ensuring you're making progress towards both goals.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-6">
+            <AccordionTrigger>How much do I need to save for early retirement?</AccordionTrigger>
+            <AccordionContent>
+              The amount varies based on your lifestyle goals and location. Our guide provides detailed calculators and frameworks to determine your personal "magic number" and shows you how to achieve it systematically.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-7">
+            <AccordionTrigger>What about healthcare costs in early retirement?</AccordionTrigger>
+            <AccordionContent>
+              Healthcare is a crucial consideration in early retirement planning. Our guide covers various strategies for managing healthcare costs, including private insurance options, health savings accounts, and building adequate buffers into your retirement fund.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-8">
+            <AccordionTrigger>Can I still enjoy holidays and leisure activities?</AccordionTrigger>
+            <AccordionContent>
+              Absolutely! Our guide emphasises balanced living. We'll show you how to plan for and enjoy leisure activities while staying on track with your early retirement goals. It's about making smart choices, not eliminating enjoyment.
+            </AccordionContent>
+          </AccordionItem>
         </Accordion>
       </div>
     </div>
