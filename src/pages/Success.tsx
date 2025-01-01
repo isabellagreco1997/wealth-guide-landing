@@ -15,7 +15,6 @@ const Success = () => {
     };
   }, []);
 
-  // Use window.matchMedia to handle responsive height
   const [widgetHeight, setWidgetHeight] = React.useState('600px');
 
   React.useEffect(() => {
@@ -37,25 +36,25 @@ const Success = () => {
   return (
     <div className="min-h-screen flex flex-col bg-offwhite">
       <Navigation />
-      <main className="flex-grow pt-20 pb-8 md:pt-28 md:pb-16 lg:pt-32 lg:pb-24">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <main className="flex-grow pt-24 pb-12 md:pt-32 md:pb-20 lg:pt-36 lg:pb-28">
+        <div className="container mx-auto px-6 sm:px-8 lg:px-12">
           <div className="max-w-3xl mx-auto">
-            <div className="text-center space-y-4 mb-8 md:mb-12">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-navy font-playfair">
+            <div className="text-center space-y-6 mb-12 md:mb-16">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-navy font-playfair px-4">
                 Your Guide is on its Way! 🎉
               </h1>
-              <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-4">
+              <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-6">
                 Check your email for your Early Retirement Guide. While you're here, why not take the next step?
               </p>
             </div>
             
-            <div className="bg-white rounded-2xl shadow-xl mx-4 sm:mx-0 overflow-hidden">
-              <div className="p-6 sm:p-8 md:p-10">
-                <div className="space-y-4 mb-8">
+            <div className="bg-white rounded-2xl shadow-xl mx-4 sm:mx-6 overflow-hidden">
+              <div className="p-8 sm:p-10 md:p-12">
+                <div className="space-y-6 mb-10">
                   <h2 className="text-2xl sm:text-3xl font-bold text-navy font-playfair">
                     Book Your Free Strategy Session
                   </h2>
-                  <p className="text-gray-600 text-base sm:text-lg">
+                  <p className="text-gray-600 text-base sm:text-lg px-2">
                     Let's discuss your retirement goals and create a personalized plan for your journey to financial freedom.
                   </p>
                 </div>
