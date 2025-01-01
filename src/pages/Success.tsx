@@ -15,6 +15,25 @@ const Success = () => {
     };
   }, []);
 
+  // Use window.matchMedia to handle responsive height
+  const [widgetHeight, setWidgetHeight] = React.useState('600px');
+
+  React.useEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 768px)');
+    
+    const handleResize = (e: MediaQueryListEvent | MediaQueryList) => {
+      setWidgetHeight(e.matches ? '700px' : '600px');
+    };
+
+    // Initial check
+    handleResize(mediaQuery);
+
+    // Add listener for changes
+    mediaQuery.addListener(handleResize);
+
+    return () => mediaQuery.removeListener(handleResize);
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -39,10 +58,7 @@ const Success = () => {
                 data-url="https://calendly.com/YOUR_CALENDLY_LINK"
                 style={{ 
                   minWidth: '280px',
-                  height: '600px',
-                  '@media (min-width: 768px)': {
-                    height: '700px'
-                  }
+                  height: widgetHeight
                 }}
               />
             </div>
