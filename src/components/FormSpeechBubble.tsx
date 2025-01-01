@@ -9,7 +9,7 @@ export const FormSpeechBubble = () => {
         </p>
       </div>
       {/* Arrow pointing down */}
-      <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full">
+      <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full z-10">
         <div className="relative h-12 w-8">
           <div className="absolute w-0.5 h-8 bg-[#F97316] left-1/2 transform -translate-x-1/2"></div>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-4 h-4 rotate-45 border-b-2 border-r-2 border-[#F97316]"></div>
